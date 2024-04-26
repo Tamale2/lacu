@@ -1,0 +1,1346 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+        <meta charset="utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"NRJS-16674665992858cb286",applicationID:"551213462"};;/*! For license information please see nr-loader-rum-1.255.0.min.js.LICENSE.txt */
+(()=>{var e,t,r={234:(e,t,r)=>{"use strict";r.d(t,{P_:()=>v,Mt:()=>b,C5:()=>s,OP:()=>k,lF:()=>N,Yu:()=>_,Dg:()=>m,CX:()=>c,GE:()=>w,sU:()=>R});var n=r(8632),i=r(9567);const o={beacon:n.ce.beacon,errorBeacon:n.ce.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0},a={};function s(e){if(!e)throw new Error("All info objects require an agent identifier!");if(!a[e])throw new Error("Info for ".concat(e," was never set"));return a[e]}function c(e,t){if(!e)throw new Error("All info objects require an agent identifier!");a[e]=(0,i.D)(t,o);const r=(0,n.ek)(e);r&&(r.info=a[e])}const u=e=>{if(!e||"string"!=typeof e)return!1;try{document.createDocumentFragment().querySelector(e)}catch{return!1}return!0};var d=r(7056),l=r(50);const f="[data-nr-mask]",g=()=>{const e={mask_selector:"*",block_selector:"[data-nr-block]",mask_input_options:{color:!1,date:!1,"datetime-local":!1,email:!1,month:!1,number:!1,range:!1,search:!1,tel:!1,text:!1,time:!1,url:!1,week:!1,textarea:!1,select:!1,password:!0}};return{feature_flags:[],proxy:{assets:void 0,beacon:void 0},privacy:{cookies_enabled:!0},ajax:{deny_list:void 0,block_internal:!0,enabled:!0,harvestTimeSeconds:10,autoStart:!0},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},session:{domain:void 0,expiresMs:d.oD,inactiveMs:d.Hb},ssl:void 0,obfuscate:void 0,jserrors:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},metrics:{enabled:!0,autoStart:!0},page_action:{enabled:!0,harvestTimeSeconds:30,autoStart:!0},page_view_event:{enabled:!0,autoStart:!0},page_view_timing:{enabled:!0,harvestTimeSeconds:30,long_task:!1,autoStart:!0},session_trace:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},harvest:{tooManyRequestsDelay:60},session_replay:{autoStart:!0,enabled:!1,harvestTimeSeconds:60,preload:!1,sampling_rate:10,error_sampling_rate:100,collect_fonts:!1,inline_images:!1,inline_stylesheet:!0,mask_all_inputs:!0,get mask_text_selector(){return e.mask_selector},set mask_text_selector(t){u(t)?e.mask_selector="".concat(t,",").concat(f):""===t||null===t?e.mask_selector=f:(0,l.Z)("An invalid session_replay.mask_selector was provided. '*' will be used.",t)},get block_class(){return"nr-block"},get ignore_class(){return"nr-ignore"},get mask_text_class(){return"nr-mask"},get block_selector(){return e.block_selector},set block_selector(t){u(t)?e.block_selector+=",".concat(t):""!==t&&(0,l.Z)("An invalid session_replay.block_selector was provided and will not be used",t)},get mask_input_options(){return e.mask_input_options},set mask_input_options(t){t&&"object"==typeof t?e.mask_input_options={...t,password:!0}:(0,l.Z)("An invalid session_replay.mask_input_option was provided and will not be used",t)}},spa:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},soft_navigations:{enabled:!0,harvestTimeSeconds:10,autoStart:!0}}},p={},h="All configuration objects require an agent identifier!";function v(e){if(!e)throw new Error(h);if(!p[e])throw new Error("Configuration for ".concat(e," was never set"));return p[e]}function m(e,t){if(!e)throw new Error(h);p[e]=(0,i.D)(t,g());const r=(0,n.ek)(e);r&&(r.init=p[e])}function b(e,t){if(!e)throw new Error(h);var r=v(e);if(r){for(var n=t.split("."),i=0;i<n.length-1;i++)if("object"!=typeof(r=r[n[i]]))return;r=r[n[n.length-1]]}return r}const y={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0},A={};function w(e,t){if(!e)throw new Error("All loader-config objects require an agent identifier!");A[e]=(0,i.D)(t,y);const r=(0,n.ek)(e);r&&(r.loader_config=A[e])}const _=(0,n.mF)().o;var x=r(385),E=r(6818);const D={buildEnv:E.Re,customTransaction:void 0,disabled:!1,distMethod:E.gF,isolatedBacklog:!1,loaderType:void 0,maxBytes:3e4,offset:Math.floor(x._A?.performance?.timeOrigin||x._A?.performance?.timing?.navigationStart||Date.now()),onerror:void 0,origin:""+x._A.location,ptid:void 0,releaseIds:{},appMetadata:{},session:void 0,xhrWrappable:"function"==typeof x._A.XMLHttpRequest?.prototype?.addEventListener,version:E.q4,denyList:void 0,harvestCount:0,timeKeeper:void 0},S={};function k(e){if(!e)throw new Error("All runtime objects require an agent identifier!");if(!S[e])throw new Error("Runtime for ".concat(e," was never set"));return S[e]}function R(e,t){if(!e)throw new Error("All runtime objects require an agent identifier!");S[e]=(0,i.D)(t,D);const r=(0,n.ek)(e);r&&(r.runtime=S[e])}function N(e){return function(e){try{const t=s(e);return!!t.licenseKey&&!!t.errorBeacon&&!!t.applicationID}catch(e){return!1}}(e)}},9567:(e,t,r)=>{"use strict";r.d(t,{D:()=>i});var n=r(50);function i(e,t){try{if(!e||"object"!=typeof e)return(0,n.Z)("Setting a Configurable requires an object as input");if(!t||"object"!=typeof t)return(0,n.Z)("Setting a Configurable requires a model to set its initial properties");const r=Object.create(Object.getPrototypeOf(t),Object.getOwnPropertyDescriptors(t)),o=0===Object.keys(r).length?e:r;for(let a in o)if(void 0!==e[a])try{Array.isArray(e[a])&&Array.isArray(t[a])?r[a]=Array.from(new Set([...e[a],...t[a]])):"object"==typeof e[a]&&"object"==typeof t[a]?r[a]=i(e[a],t[a]):r[a]=e[a]}catch(e){(0,n.Z)("An error occurred while setting a property of a Configurable",e)}return r}catch(e){(0,n.Z)("An error occured while setting a Configurable",e)}}},6818:(e,t,r)=>{"use strict";r.d(t,{Re:()=>i,gF:()=>o,q4:()=>n});const n="1.255.0",i="PROD",o="CDN"},385:(e,t,r)=>{"use strict";r.d(t,{Nk:()=>d,Tt:()=>s,_A:()=>o,cv:()=>l,iS:()=>a,il:()=>n,ux:()=>c,v6:()=>i,w1:()=>u});const n="undefined"!=typeof window&&!!window.document,i="undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis.navigator instanceof WorkerNavigator),o=n?window:"undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis),a=Boolean("hidden"===o?.document?.visibilityState),s=/iPad|iPhone|iPod/.test(o.navigator?.userAgent),c=s&&"undefined"==typeof SharedWorker,u=((()=>{const e=o.navigator?.userAgent?.match(/Firefox[/\s](\d+\.\d+)/);Array.isArray(e)&&e.length>=2&&e[1]})(),Boolean(n&&window.document.documentMode)),d=!!o.navigator?.sendBeacon,l=Math.floor(o?.performance?.timeOrigin||o?.performance?.timing?.navigationStart||Date.now())},1117:(e,t,r)=>{"use strict";r.d(t,{w:()=>o});var n=r(50);const i={agentIdentifier:"",ee:void 0};class o{constructor(e){try{if("object"!=typeof e)return(0,n.Z)("shared context requires an object as input");this.sharedContext={},Object.assign(this.sharedContext,i),Object.entries(e).forEach((e=>{let[t,r]=e;Object.keys(i).includes(t)&&(this.sharedContext[t]=r)}))}catch(e){(0,n.Z)("An error occurred while setting SharedContext",e)}}}},8e3:(e,t,r)=>{"use strict";r.d(t,{LP:()=>l,RP:()=>c,o5:()=>u});var n=r(8325),i=r(1284),o=r(4322),a=r(3325);const s={};function c(e,t){const r={staged:!1,priority:a.p[t]||0};d(e),s[e].get(t)||s[e].set(t,r)}function u(e,t){d(e),s[e].get(t)&&s[e].delete(t),s[e].size&&f(e)}function d(e){if(!e)throw new Error("agentIdentifier required");s[e]||(s[e]=new Map)}function l(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"",t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:"feature",r=arguments.length>2&&void 0!==arguments[2]&&arguments[2];if(d(e),!e||!s[e].get(t)||r)return g(e,t);s[e].get(t).staged=!0,f(e)}function f(e){const t=[...s[e]];t.every((e=>{let[t,r]=e;return r.staged}))&&(t.sort(((e,t)=>e[1].priority-t[1].priority)),t.forEach((t=>{let[r]=t;s[e].delete(r),g(e,r)})))}function g(e,t){const r=e?n.ee.get(e):n.ee,a=o.X.handlers;if(r.backlog&&a){var s=r.backlog[t],c=a[t];if(c){for(var u=0;s&&u<s.length;++u)p(s[u],c);(0,i.D)(c,(function(e,t){(0,i.D)(t,(function(t,r){r[0].on(e,r[1])}))}))}r.isolatedBacklog||delete a[t],r.backlog[t]=null,r.emit("drain-"+t,[])}}function p(e,t){var r=e[1];(0,i.D)(t[r],(function(t,r){var n=e[0];if(r[0]===n){var i=r[1],o=e[3],a=e[2];i.apply(o,a)}}))}},8325:(e,t,r)=>{"use strict";r.d(t,{A:()=>c,ee:()=>u});var n=r(8632),i=r(2210),o=r(234);class a{constructor(e){this.contextId=e}}var s=r(3117);const c="nr@context:".concat(s.a),u=function e(t,r){var n={},s={},d={},l=!1;try{l=16===r.length&&(0,o.OP)(r).isolatedBacklog}catch(e){}var f={on:p,addEventListener:p,removeEventListener:function(e,t){var r=n[e];if(!r)return;for(var i=0;i<r.length;i++)r[i]===t&&r.splice(i,1)},emit:function(e,r,n,i,o){!1!==o&&(o=!0);if(u.aborted&&!i)return;t&&o&&t.emit(e,r,n);for(var a=g(n),c=h(e),d=c.length,l=0;l<d;l++)c[l].apply(a,r);var p=m()[s[e]];p&&p.push([f,e,r,a]);return a},get:v,listeners:h,context:g,buffer:function(e,t){const r=m();if(t=t||"feature",f.aborted)return;Object.entries(e||{}).forEach((e=>{let[n,i]=e;s[i]=t,t in r||(r[t]=[])}))},abort:function(){f._aborted=!0,Object.keys(f.backlog).forEach((e=>{delete f.backlog[e]}))},isBuffering:function(e){return!!m()[s[e]]},debugId:r,backlog:l?{}:t&&"object"==typeof t.backlog?t.backlog:{},isolatedBacklog:l};return Object.defineProperty(f,"aborted",{get:()=>{let e=f._aborted||!1;return e||(t&&(e=t.aborted),e)}}),f;function g(e){return e&&e instanceof a?e:e?(0,i.X)(e,c,(()=>new a(c))):new a(c)}function p(e,t){n[e]=h(e).concat(t)}function h(e){return n[e]||[]}function v(t){return d[t]=d[t]||e(f,t)}function m(){return f.backlog}}(void 0,"globalEE"),d=(0,n.fP)();d.ee||(d.ee=u)},5546:(e,t,r)=>{"use strict";r.d(t,{E:()=>n,p:()=>i});var n=r(8325).ee.get("handle");function i(e,t,r,i,o){o?(o.buffer([e],i),o.emit(e,t,r)):(n.buffer([e],i),n.emit(e,t,r))}},4322:(e,t,r)=>{"use strict";r.d(t,{X:()=>o});var n=r(5546);o.on=a;var i=o.handlers={};function o(e,t,r,o){a(o||n.E,i,e,t,r)}function a(e,t,r,i,o){o||(o="feature"),e||(e=n.E);var a=t[o]=t[o]||{};(a[r]=a[r]||[]).push([e,i])}},3239:(e,t,r)=>{"use strict";r.d(t,{bP:()=>s,iz:()=>c,m$:()=>a});var n=r(385);let i=!1,o=!1;try{const e={get passive(){return i=!0,!1},get signal(){return o=!0,!1}};n._A.addEventListener("test",null,e),n._A.removeEventListener("test",null,e)}catch(e){}function a(e,t){return i||o?{capture:!!e,passive:i,signal:t}:!!e}function s(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2],n=arguments.length>3?arguments[3]:void 0;window.addEventListener(e,t,a(r,n))}function c(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2],n=arguments.length>3?arguments[3]:void 0;document.addEventListener(e,t,a(r,n))}},3117:(e,t,r)=>{"use strict";r.d(t,{a:()=>n});const n=(0,r(4402).Rl)()},4402:(e,t,r)=>{"use strict";r.d(t,{Rl:()=>a,ky:()=>s});var n=r(385);const i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx";function o(e,t){return e?15&e[t]:16*Math.random()|0}function a(){const e=n._A?.crypto||n._A?.msCrypto;let t,r=0;return e&&e.getRandomValues&&(t=e.getRandomValues(new Uint8Array(30))),i.split("").map((e=>"x"===e?o(t,r++).toString(16):"y"===e?(3&o()|8).toString(16):e)).join("")}function s(e){const t=n._A?.crypto||n._A?.msCrypto;let r,i=0;t&&t.getRandomValues&&(r=t.getRandomValues(new Uint8Array(e)));const a=[];for(var s=0;s<e;s++)a.push(o(r,i++).toString(16));return a.join("")}},7056:(e,t,r)=>{"use strict";r.d(t,{Bq:()=>n,Hb:()=>a,IK:()=>u,K4:()=>i,oD:()=>o,uT:()=>c,wO:()=>s});const n="NRBA",i="SESSION",o=144e5,a=18e5,s={PAUSE:"session-pause",RESET:"session-reset",RESUME:"session-resume",UPDATE:"session-update"},c={SAME_TAB:"same-tab",CROSS_TAB:"cross-tab"},u={OFF:0,FULL:1,ERROR:2}},7894:(e,t,r)=>{"use strict";function n(){return Math.floor(performance.now())}r.d(t,{z:()=>n})},50:(e,t,r)=>{"use strict";function n(e,t){"function"==typeof console.warn&&(console.warn("New Relic: ".concat(e)),t&&console.warn(t))}r.d(t,{Z:()=>n})},2825:(e,t,r)=>{"use strict";r.d(t,{N:()=>c,T:()=>s});var n=r(8325),i=r(385);const o="newrelic";const a=new Set,s={};function c(e,t){const r=n.ee.get(t);s[t]??={},e&&"object"==typeof e&&(a.has(t)||(r.emit("rumresp",[e]),s[t]=e,a.add(t),function(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{};try{i._A.dispatchEvent(new CustomEvent(o,{detail:e}))}catch(e){}}({loaded:!0})))}},2210:(e,t,r)=>{"use strict";r.d(t,{X:()=>i});var n=Object.prototype.hasOwnProperty;function i(e,t,r){if(n.call(e,t))return e[t];var i=r();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},1284:(e,t,r)=>{"use strict";r.d(t,{D:()=>n});const n=(e,t)=>Object.entries(e||{}).map((e=>{let[r,n]=e;return t(r,n)}))},4351:(e,t,r)=>{"use strict";r.d(t,{P:()=>o});var n=r(8325);const i=()=>{const e=new WeakSet;return(t,r)=>{if("object"==typeof r&&null!==r){if(e.has(r))return;e.add(r)}return r}};function o(e){try{return JSON.stringify(e,i())}catch(e){try{n.ee.emit("internal-error",[e])}catch(e){}}}},3960:(e,t,r)=>{"use strict";r.d(t,{KB:()=>a,b2:()=>o});var n=r(3239);function i(){return"undefined"==typeof document||"complete"===document.readyState}function o(e,t){if(i())return e();(0,n.bP)("load",e,t)}function a(e){if(i())return e();(0,n.iz)("DOMContentLoaded",e)}},8632:(e,t,r)=>{"use strict";r.d(t,{EZ:()=>d,ce:()=>o,ek:()=>u,fP:()=>a,gG:()=>l,h5:()=>c,mF:()=>s});var n=r(385),i=r(7894);const o={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function a(){return n._A.NREUM||(n._A.NREUM={}),void 0===n._A.newrelic&&(n._A.newrelic=n._A.NREUM),n._A.NREUM}function s(){let e=a();return e.o||(e.o={ST:n._A.setTimeout,SI:n._A.setImmediate,CT:n._A.clearTimeout,XHR:n._A.XMLHttpRequest,REQ:n._A.Request,EV:n._A.Event,PR:n._A.Promise,MO:n._A.MutationObserver,FETCH:n._A.fetch}),e}function c(e,t){let r=a();r.initializedAgents??={},t.initializedAt={ms:(0,i.z)(),date:new Date},r.initializedAgents[e]=t}function u(e){let t=a();return t.initializedAgents?.[e]}function d(e,t){a()[e]=t}function l(){return function(){let e=a();const t=e.info||{};e.info={beacon:o.beacon,errorBeacon:o.errorBeacon,...t}}(),function(){let e=a();const t=e.init||{};e.init={...t}}(),s(),function(){let e=a();const t=e.loader_config||{};e.loader_config={...t}}(),a()}},7956:(e,t,r)=>{"use strict";r.d(t,{N:()=>i});var n=r(3239);function i(e){let t=arguments.length>1&&void 0!==arguments[1]&&arguments[1],r=arguments.length>2?arguments[2]:void 0,i=arguments.length>3?arguments[3]:void 0;(0,n.iz)("visibilitychange",(function(){if(t)return void("hidden"===document.visibilityState&&e());e(document.visibilityState)}),r,i)}},3081:(e,t,r)=>{"use strict";r.d(t,{gF:()=>o,mY:()=>i,t9:()=>n,vz:()=>s,xS:()=>a});const n=r(3325).D.metrics,i="sm",o="cm",a="storeSupportabilityMetrics",s="storeEventMetrics"},7633:(e,t,r)=>{"use strict";r.d(t,{t:()=>n});const n=r(3325).D.pageViewEvent},9251:(e,t,r)=>{"use strict";r.d(t,{t:()=>n});const n=r(3325).D.pageViewTiming},7144:(e,t,r)=>{"use strict";r.d(t,{Ef:()=>i});var n=r(7056);r(3325).D.sessionReplay;const i={RECORD:"recordReplay",PAUSE:"pauseReplay"};n.IK.ERROR,n.IK.FULL,n.IK.OFF},5938:(e,t,r)=>{"use strict";r.d(t,{W:()=>i});var n=r(8325);class i{constructor(e,t,r){this.agentIdentifier=e,this.aggregator=t,this.ee=n.ee.get(e),this.featureName=r,this.blocked=!1}}},2758:(e,t,r)=>{"use strict";r.d(t,{j:()=>w});var n=r(3325),i=r(234),o=r(5546),a=r(8325),s=r(8e3),c=r(3960),u=r(385),d=r(50),l=r(3081),f=r(8632),g=r(7144);const p=["setErrorHandler","finished","addToTrace","addRelease","addPageAction","setCurrentRouteName","setPageViewName","setCustomAttribute","interaction","noticeError","setUserId","setApplicationVersion","start","recordReplay","pauseReplay",g.Ef.RECORD,g.Ef.PAUSE],h=["setErrorHandler","finished","addToTrace","addRelease"];var v=r(7894);function m(){const e=(0,f.gG)();p.forEach((t=>{e[t]=function(){for(var r=arguments.length,n=new Array(r),i=0;i<r;i++)n[i]=arguments[i];return function(t){for(var r=arguments.length,n=new Array(r>1?r-1:0),i=1;i<r;i++)n[i-1]=arguments[i];let o=[];return Object.values(e.initializedAgents).forEach((e=>{e.exposed&&e.api[t]&&o.push(e.api[t](...n))})),o.length>1?o:o[0]}(t,...n)}}))}var b=r(2825);const y=e=>{const t=e.startsWith("http");e+="/",r.p=t?e:"https://"+e};let A=!1;function w(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{},p=arguments.length>2?arguments[2]:void 0,w=arguments.length>3?arguments[3]:void 0,{init:_,info:x,loader_config:E,runtime:D={loaderType:p},exposed:S=!0}=t;const k=(0,f.gG)();x||(_=k.init,x=k.info,E=k.loader_config),(0,i.Dg)(e.agentIdentifier,_||{}),(0,i.GE)(e.agentIdentifier,E||{}),x.jsAttributes??={},u.v6&&(x.jsAttributes.isWorker=!0),(0,i.CX)(e.agentIdentifier,x);const R=(0,i.P_)(e.agentIdentifier),N=[x.beacon,x.errorBeacon];A||(R.proxy.assets&&(y(R.proxy.assets),N.push(R.proxy.assets)),R.proxy.beacon&&N.push(R.proxy.beacon),m(),(0,f.EZ)("activatedFeatures",b.T),e.runSoftNavOverSpa&&=!0===R.soft_navigations.enabled&&R.feature_flags.includes("soft_nav")),D.denyList=[...R.ajax.deny_list||[],...R.ajax.block_internal?N:[]],(0,i.sU)(e.agentIdentifier,D),void 0===e.api&&(e.api=function(e,t){let f=arguments.length>2&&void 0!==arguments[2]&&arguments[2];t||(0,s.RP)(e,"api");const p={};var m=a.ee.get(e),b=m.get("tracer"),y="api-",A=y+"ixn-";function w(t,r,n,o){const a=(0,i.C5)(e);return null===r?delete a.jsAttributes[t]:(0,i.CX)(e,{...a,jsAttributes:{...a.jsAttributes,[t]:r}}),E(y,n,!0,o||null===r?"session":void 0)(t,r)}function _(){}h.forEach((e=>{p[e]=E(y,e,!0,"api")})),p.addPageAction=E(y,"addPageAction",!0,n.D.pageAction),p.setPageViewName=function(t,r){if("string"==typeof t)return"/"!==t.charAt(0)&&(t="/"+t),(0,i.OP)(e).customTransaction=(r||"http://custom.transaction")+t,E(y,"setPageViewName",!0)()},p.setCustomAttribute=function(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2];if("string"==typeof e){if(["string","number","boolean"].includes(typeof t)||null===t)return w(e,t,"setCustomAttribute",r);(0,d.Z)("Failed to execute setCustomAttribute.\nNon-null value must be a string, number or boolean type, but a type of <".concat(typeof t,"> was provided."))}else(0,d.Z)("Failed to execute setCustomAttribute.\nName must be a string type, but a type of <".concat(typeof e,"> was provided."))},p.setUserId=function(e){if("string"==typeof e||null===e)return w("enduser.id",e,"setUserId",!0);(0,d.Z)("Failed to execute setUserId.\nNon-null value must be a string type, but a type of <".concat(typeof e,"> was provided."))},p.setApplicationVersion=function(e){if("string"==typeof e||null===e)return w("application.version",e,"setApplicationVersion",!1);(0,d.Z)("Failed to execute setApplicationVersion. Expected <String | null>, but got <".concat(typeof e,">."))},p.start=e=>{try{const t=e?"defined":"undefined";(0,o.p)(l.xS,["API/start/".concat(t,"/called")],void 0,n.D.metrics,m);const r=Object.values(n.D);if(void 0===e)e=r;else{if((e=Array.isArray(e)&&e.length?e:[e]).some((e=>!r.includes(e))))return(0,d.Z)("Invalid feature name supplied. Acceptable feature names are: ".concat(r));e.includes(n.D.pageViewEvent)||e.push(n.D.pageViewEvent)}e.forEach((e=>{m.emit("".concat(e,"-opt-in"))}))}catch(e){(0,d.Z)("An unexpected issue occurred",e)}},p[g.Ef.RECORD]=function(){(0,o.p)(l.xS,["API/recordReplay/called"],void 0,n.D.metrics,m),(0,o.p)(g.Ef.RECORD,[],void 0,n.D.sessionReplay,m)},p[g.Ef.PAUSE]=function(){(0,o.p)(l.xS,["API/pauseReplay/called"],void 0,n.D.metrics,m),(0,o.p)(g.Ef.PAUSE,[],void 0,n.D.sessionReplay,m)},p.interaction=function(e){return(new _).get("object"==typeof e?e:{})};const x=_.prototype={createTracer:function(e,t){var r={},i=this,a="function"==typeof t;return(0,o.p)(l.xS,["API/createTracer/called"],void 0,n.D.metrics,m),f||(0,o.p)(A+"tracer",[(0,v.z)(),e,r],i,n.D.spa,m),function(){if(b.emit((a?"":"no-")+"fn-start",[(0,v.z)(),i,a],r),a)try{return t.apply(this,arguments)}catch(e){throw b.emit("fn-err",[arguments,this,e],r),e}finally{b.emit("fn-end",[(0,v.z)()],r)}}}};function E(e,t,r,i){return function(){return(0,o.p)(l.xS,["API/"+t+"/called"],void 0,n.D.metrics,m),i&&(0,o.p)(e+t,[(0,v.z)(),...arguments],r?null:this,i,m),r?void 0:this}}function D(){r.e(75).then(r.bind(r,7438)).then((t=>{let{setAPI:r}=t;r(e),(0,s.LP)(e,"api")})).catch((()=>{(0,d.Z)("Downloading runtime APIs failed..."),m.abort()}))}return["actionText","setName","setAttribute","save","ignore","onEnd","getContext","end","get"].forEach((e=>{x[e]=E(A,e,void 0,f?n.D.softNav:n.D.spa)})),p.setCurrentRouteName=f?E(A,"routeName",void 0,n.D.softNav):E(y,"routeName",!0,n.D.spa),p.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),(0,o.p)(l.xS,["API/noticeError/called"],void 0,n.D.metrics,m),(0,o.p)("err",[e,(0,v.z)(),!1,t],void 0,n.D.jserrors,m)},u.il?(0,c.b2)((()=>D()),!0):D(),p}(e.agentIdentifier,w,e.runSoftNavOverSpa)),void 0===e.exposed&&(e.exposed=S),A=!0}},8993:(e,t,r)=>{r.nc=(()=>{try{return document?.currentScript?.nonce}catch(e){}return""})()},3325:(e,t,r)=>{"use strict";r.d(t,{D:()=>n,p:()=>i});const n={ajax:"ajax",jserrors:"jserrors",metrics:"metrics",pageAction:"page_action",pageViewEvent:"page_view_event",pageViewTiming:"page_view_timing",sessionReplay:"session_replay",sessionTrace:"session_trace",softNav:"soft_navigations",spa:"spa"},i={[n.pageViewEvent]:1,[n.pageViewTiming]:2,[n.metrics]:3,[n.jserrors]:4,[n.ajax]:5,[n.sessionTrace]:6,[n.pageAction]:7,[n.spa]:8,[n.softNav]:9,[n.sessionReplay]:10}}},n={};function i(e){var t=n[e];if(void 0!==t)return t.exports;var o=n[e]={exports:{}};return r[e](o,o.exports,i),o.exports}i.m=r,i.d=(e,t)=>{for(var r in t)i.o(t,r)&&!i.o(e,r)&&Object.defineProperty(e,r,{enumerable:!0,get:t[r]})},i.f={},i.e=e=>Promise.all(Object.keys(i.f).reduce(((t,r)=>(i.f[r](e,t),t)),[])),i.u=e=>"nr-rum-1.255.0.min.js",i.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),e={},t="NRBA-1.255.0.PROD:",i.l=(r,n,o,a)=>{if(e[r])e[r].push(n);else{var s,c;if(void 0!==o)for(var u=document.getElementsByTagName("script"),d=0;d<u.length;d++){var l=u[d];if(l.getAttribute("src")==r||l.getAttribute("data-webpack")==t+o){s=l;break}}if(!s){c=!0;var f={75:"sha512-yvalRo3j7RmzZVRzIh42ebWt17oJ4T32AbVOUANV82MjHU2thajbTjqAynar4//H0nKgDvQg5tZT4ehVDsIZ4Q=="};(s=document.createElement("script")).charset="utf-8",s.timeout=120,i.nc&&s.setAttribute("nonce",i.nc),s.setAttribute("data-webpack",t+o),s.src=r,0!==s.src.indexOf(window.location.origin+"/")&&(s.crossOrigin="anonymous"),f[a]&&(s.integrity=f[a])}e[r]=[n];var g=(t,n)=>{s.onerror=s.onload=null,clearTimeout(p);var i=e[r];if(delete e[r],s.parentNode&&s.parentNode.removeChild(s),i&&i.forEach((e=>e(n))),t)return t(n)},p=setTimeout(g.bind(null,void 0,{type:"timeout",target:s}),12e4);s.onerror=g.bind(null,s.onerror),s.onload=g.bind(null,s.onload),c&&document.head.appendChild(s)}},i.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.p="https://js-agent.newrelic.com/",(()=>{var e={50:0,832:0};i.f.j=(t,r)=>{var n=i.o(e,t)?e[t]:void 0;if(0!==n)if(n)r.push(n[2]);else{var o=new Promise(((r,i)=>n=e[t]=[r,i]));r.push(n[2]=o);var a=i.p+i.u(t),s=new Error;i.l(a,(r=>{if(i.o(e,t)&&(0!==(n=e[t])&&(e[t]=void 0),n)){var o=r&&("load"===r.type?"missing":r.type),a=r&&r.target&&r.target.src;s.message="Loading chunk "+t+" failed.\n("+o+": "+a+")",s.name="ChunkLoadError",s.type=o,s.request=a,n[1](s)}}),"chunk-"+t,t)}};var t=(t,r)=>{var n,o,[a,s,c]=r,u=0;if(a.some((t=>0!==e[t]))){for(n in s)i.o(s,n)&&(i.m[n]=s[n]);if(c)c(i)}for(t&&t(r);u<a.length;u++)o=a[u],i.o(e,o)&&e[o]&&e[o][0](),e[o]=0},r=self["webpackChunk:NRBA-1.255.0.PROD"]=self["webpackChunk:NRBA-1.255.0.PROD"]||[];r.forEach(t.bind(null,0)),r.push=t.bind(null,r.push.bind(r))})(),(()=>{"use strict";i(8993);var e=i(50),t=i(7144),r=i(4402);class n{agentIdentifier;constructor(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:(0,r.ky)(16);this.agentIdentifier=e}#e(t){for(var r=arguments.length,n=new Array(r>1?r-1:0),i=1;i<r;i++)n[i-1]=arguments[i];if("function"==typeof this.api?.[t])return this.api[t](...n);(0,e.Z)("Call to agent api ".concat(t," failed. The API is not currently initialized."))}addPageAction(e,t){return this.#e("addPageAction",e,t)}setPageViewName(e,t){return this.#e("setPageViewName",e,t)}setCustomAttribute(e,t,r){return this.#e("setCustomAttribute",e,t,r)}noticeError(e,t){return this.#e("noticeError",e,t)}setUserId(e){return this.#e("setUserId",e)}setApplicationVersion(e){return this.#e("setApplicationVersion",e)}setErrorHandler(e){return this.#e("setErrorHandler",e)}finished(e){return this.#e("finished",e)}addRelease(e,t){return this.#e("addRelease",e,t)}start(e){return this.#e("start",e)}recordReplay(){return this.#e(t.Ef.RECORD)}pauseReplay(){return this.#e(t.Ef.PAUSE)}addToTrace(e){return this.#e("addToTrace",e)}setCurrentRouteName(e){return this.#e("setCurrentRouteName",e)}interaction(){return this.#e("interaction")}}var o=i(3325),a=i(234);const s=Object.values(o.D);function c(e){const t={};return s.forEach((r=>{t[r]=function(e,t){return!0===(0,a.Mt)(t,"".concat(e,".enabled"))}(r,e)})),t}var u=i(2758);var d=i(8e3),l=i(5938),f=i(3960),g=i(385);const p=e=>g.il&&!0===(0,a.Mt)(e,"privacy.cookies_enabled");function h(e){return a.Yu.MO&&p&&!0===(0,a.Mt)(e,"session_trace.enabled")}class v extends l.W{constructor(e,t,r){let n=!(arguments.length>3&&void 0!==arguments[3])||arguments[3];super(e,t,r),this.auto=n,this.abortHandler=void 0,this.featAggregate=void 0,this.onAggregateImported=void 0,!1===(0,a.Mt)(this.agentIdentifier,"".concat(this.featureName,".autoStart"))&&(this.auto=!1),this.auto&&(0,d.RP)(e,r)}importAggregator(){let t,r=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{};if(this.featAggregate)return;if(!this.auto)return void this.ee.on("".concat(this.featureName,"-opt-in"),(()=>{(0,d.RP)(this.agentIdentifier,this.featureName),this.auto=!0,this.importAggregator()}));this.onAggregateImported=new Promise((e=>{t=e}));const n=async()=>{let n;try{if(p(this.agentIdentifier)){const{setupAgentSession:e}=await i.e(75).then(i.bind(i,3108));n=e(this.agentIdentifier)}}catch(t){(0,e.Z)("A problem occurred when starting up session manager. This page will not start or extend any session.",t),this.featureName===o.D.sessionReplay&&this.abortHandler?.()}try{if(!this.#t(this.featureName,n))return(0,d.LP)(this.agentIdentifier,this.featureName),void t(!1);const{lazyFeatureLoader:e}=await i.e(75).then(i.bind(i,8582)),{Aggregate:o}=await e(this.featureName,"aggregate");this.featAggregate=new o(this.agentIdentifier,this.aggregator,r),t(!0)}catch(r){(0,e.Z)("Downloading and initializing ".concat(this.featureName," failed..."),r),this.abortHandler?.(),(0,d.LP)(this.agentIdentifier,this.featureName,!0),t(!1),this.ee&&this.ee.abort()}};g.il?(0,f.b2)((()=>n()),!0):n()}#t(e,t){return e!==o.D.sessionReplay||(r=this.agentIdentifier,n=t,!(!h(r)||!n?.isNew&&!n?.state.sessionReplayMode));var r,n}}var m=i(7633);class b extends v{static featureName=m.t;constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,m.t,r),this.importAggregator()}}var y=i(1117),A=i(1284);class w extends y.w{constructor(e){super(e),this.aggregatedData={}}store(e,t,r,n,i){var o=this.getBucket(e,t,r,i);return o.metrics=function(e,t){t||(t={count:0});return t.count+=1,(0,A.D)(e,(function(e,r){t[e]=_(r,t[e])})),t}(n,o.metrics),o}merge(e,t,r,n,i){var o=this.getBucket(e,t,n,i);if(o.metrics){var a=o.metrics;a.count+=r.count,(0,A.D)(r,(function(e,t){if("count"!==e){var n=a[e],i=r[e];i&&!i.c?a[e]=_(i.t,n):a[e]=function(e,t){if(!t)return e;t.c||(t=x(t.t));return t.min=Math.min(e.min,t.min),t.max=Math.max(e.max,t.max),t.t+=e.t,t.sos+=e.sos,t.c+=e.c,t}(i,a[e])}}))}else o.metrics=r}storeMetric(e,t,r,n){var i=this.getBucket(e,t,r);return i.stats=_(n,i.stats),i}getBucket(e,t,r,n){this.aggregatedData[e]||(this.aggregatedData[e]={});var i=this.aggregatedData[e][t];return i||(i=this.aggregatedData[e][t]={params:r||{}},n&&(i.custom=n)),i}get(e,t){return t?this.aggregatedData[e]&&this.aggregatedData[e][t]:this.aggregatedData[e]}take(e){for(var t={},r="",n=!1,i=0;i<e.length;i++)t[r=e[i]]=Object.values(this.aggregatedData[r]||{}),t[r].length&&(n=!0),delete this.aggregatedData[r];return n?t:null}}function _(e,t){return null==e?function(e){e?e.c++:e={c:1};return e}(t):t?(t.c||(t=x(t.t)),t.c+=1,t.t+=e,t.sos+=e*e,e>t.max&&(t.max=e),e<t.min&&(t.min=e),t):{t:e}}function x(e){return{t:e,min:e,max:e,sos:e*e,c:1}}var E=i(8632),D=i(4351);var S=i(5546),k=i(7956),R=i(3239),N=i(9251),P=i(7894);class j extends v{static featureName=N.t;constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,N.t,r),g.il&&((0,k.N)((()=>(0,S.p)("docHidden",[(0,P.z)()],void 0,N.t,this.ee)),!0),(0,R.bP)("pagehide",(()=>(0,S.p)("winPagehide",[(0,P.z)()],void 0,N.t,this.ee))),this.importAggregator())}}var I=i(3081);class T extends v{static featureName=I.t9;constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,I.t9,r),this.importAggregator()}}new class extends n{constructor(t,r){super(r),g._A?(this.sharedAggregator=new w({agentIdentifier:this.agentIdentifier}),this.features={},(0,E.h5)(this.agentIdentifier,this),this.desiredFeatures=new Set(t.features||[]),this.desiredFeatures.add(b),this.runSoftNavOverSpa=[...this.desiredFeatures].some((e=>e.featureName===o.D.softNav)),(0,u.j)(this,t,t.loaderType||"agent"),this.run()):(0,e.Z)("Failed to initialize the agent. Could not determine the runtime environment.")}get config(){return{info:this.info,init:this.init,loader_config:this.loader_config,runtime:this.runtime}}run(){try{const t=c(this.agentIdentifier),r=[...this.desiredFeatures];r.sort(((e,t)=>o.p[e.featureName]-o.p[t.featureName])),r.forEach((r=>{if(!t[r.featureName]&&r.featureName!==o.D.pageViewEvent)return;if(this.runSoftNavOverSpa&&r.featureName===o.D.spa)return;if(!this.runSoftNavOverSpa&&r.featureName===o.D.softNav)return;const n=function(e){switch(e){case o.D.ajax:return[o.D.jserrors];case o.D.sessionTrace:return[o.D.ajax,o.D.pageViewEvent];case o.D.sessionReplay:return[o.D.sessionTrace];case o.D.pageViewTiming:return[o.D.pageViewEvent];default:return[]}}(r.featureName);n.every((e=>e in this.features))||(0,e.Z)("".concat(r.featureName," is enabled but one or more dependent features has not been initialized (").concat((0,D.P)(n),"). This may cause unintended consequences or missing data...")),this.features[r.featureName]=new r(this.agentIdentifier,this.sharedAggregator)}))}catch(t){(0,e.Z)("Failed to initialize all enabled instrument classes (agent aborted) -",t);for(const e in this.features)this.features[e].abortHandler?.();const r=(0,E.fP)();delete r.initializedAgents[this.agentIdentifier]?.api,delete r.initializedAgents[this.agentIdentifier]?.features,delete this.sharedAggregator;return r.ee.get(this.agentIdentifier).abort(),!1}}}({features:[b,j,T],loaderType:"lite"})})()})();</script>
+<noscript><style>form.antibot * :not(.antibot-message) { display: none !important; }</style>
+</noscript><link rel="canonical" href="https://www.childrensaidnyc.org/" />
+<link rel="shortlink" href="https://www.childrensaidnyc.org/" />
+<meta name="Generator" content="Drupal 9 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" href="/themes/custom/cas/favicon.ico" type="image/vnd.microsoft.icon" />
+
+    <title>Page not found | Children&#039;s Aid</title>
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_QXejyw6TYsYj00nzLwnBaUFgJ_VUaREjctZDJI5vgDw.css" />
+<link rel="stylesheet" media="all" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_P9w9paTmOfsJVfCuAcpopl2G0vZyEBpiARP-D1URcBM.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_iTMUUhttWOGB4BFPfnr7ocXCufR33AnhyemzFM8sKaE.css" />
+<link rel="stylesheet" media="all" href="/themes/custom/cas/build/libraries/global/global.css?satymf" />
+
+    
+    <script src="https://use.typekit.net/nrt0ewg.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+    <link rel="apple-touch-icon" sizes="57x57" href="/themes/custom/cas/images/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/themes/custom/cas/images/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/themes/custom/cas/images/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/themes/custom/cas/images/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/themes/custom/cas/images/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/themes/custom/cas/images/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/themes/custom/cas/images/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/themes/custom/cas/images/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/themes/custom/cas/images/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/themes/custom/cas/images/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/themes/custom/cas/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/themes/custom/cas/images/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/themes/custom/cas/images/favicons/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+        <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-T6ZL42');</script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NLJ14BEGRB"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-NLJ14BEGRB');
+    </script>
+  </head>
+  <body class="section--default path-sites">
+    
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T6ZL42"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <a href="#main-content" class="visually-hidden focusable skip-link">
+      Skip to main content
+    </a>
+    <div class="l--wrapper">
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+
+
+<header id="header" class="header" role="banner">
+  <div class="header__wrapper">
+    <div class="l--constrained">
+      <div id="block-googletranslator" class="block block-google-translator">
+  
+    
+      <a href="#" class="notranslate google-translator-switch">Translate this page</a>
+
+  </div>
+
+      <div class="header__content">
+        <div class="header__logo">
+          <a href="/" title="Home" rel="home" class="logo">
+      <img src="/themes/custom/cas/logo.svg" alt="Children&#039;s Aid logo" class="logo__image" onerror="this.onerror=null; this.src='/themes/custom/cas/logo.png'" >
+        <img src="/themes/custom/cas/logo-md.svg" alt="Children&#039;s Aid logo" class="logo__image--medium" onerror="this.onerror=null; this.src='/themes/custom/cas/logo-md.png'" >
+        <img src="/themes/custom/cas/logo-sm.svg" alt="Children&#039;s Aid logo" class="logo__image--small" onerror="this.onerror=null; this.src='/themes/custom/cas/logo-sm.png'" >
+  </a>
+        </div>
+        <div class="header__toggle">
+          <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+          <label for="nav-trigger">
+
+            <svg class="nav-trigger__icon nav-trigger__icon--expand" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="30px" height="30px" viewBox="0 0 30 30" enable-background="new 0 0 30 30" xml:space="preserve">
+              <rect y="3" width="30" height="4"/>
+              <rect y="23" width="30" height="4"/>
+              <rect y="13" width="30" height="4"/>
+            </svg>
+
+            <svg class="nav-trigger__icon nav-trigger__icon--collapse" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="30px" height="30px" viewBox="0 0 30 30" enable-background="new 0 0 30 30" xml:space="preserve">
+              <polygon fill="#004B87" fill-rule="evenodd" points="15 12.172 5.808 2.979 2.979 5.808 12.172 15 2.979 24.192 5.808 27.021 15 17.828 24.192 27.021 27.021 24.192 17.828 15 27.021 5.808 24.192 2.979"/>
+            </svg>
+
+          </label>
+        </div>
+        <div class="header__navigation">
+          <div class="header__site-navigation">
+            <div class="header__menu-utility">
+              <nav role="navigation" aria-labelledby="block-headerutility-menu" id="block-headerutility">
+            
+  <h2 class="visually-hidden" id="block-headerutility-menu">Header Utility</h2>
+  
+
+                  <ul class="menu menu--header-utility" data-depth="0">
+                <li class="menu__item menu__item--contact-us">
+        <a href="/contact" class="menu__link" data-drupal-link-system-path="node/316">Contact Us</a>
+              </li>
+                <li class="menu__item menu__item--news-and-press">
+        <a href="/news-and-press" class="menu__link" data-drupal-link-system-path="node/772">News and Press</a>
+              </li>
+                <li class="menu__item menu__item--careers">
+        <a href="/about/careers" class="menu__link" data-drupal-link-system-path="node/589">Careers</a>
+              </li>
+                <li class="menu__item menu__item--sign-up">
+        <a href="https://giving.childrensaidnyc.org/page/52956/subscribe/1" class="menu__link">Sign Up</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+              <div id="block-socialmedialinks" class="block-social-media-links block block-social-media-links-block">
+  
+    
+      
+
+<ul class="social-media-links--platforms platforms inline horizontal">
+      <li>
+      <a class="social-media-link-icon--facebook" href="https://www.facebook.com/ChildrensAidNYC"  >
+        <span class='fab fa-facebook fa-lg'></span>
+      </a>
+
+          </li>
+      <li>
+      <a class="social-media-link-icon--twitter" href="https://www.twitter.com/childrensaidnyc"  >
+        <span class='fab fa-x-twitter fa-lg'></span>
+      </a>
+
+          </li>
+      <li>
+      <a class="social-media-link-icon--instagram" href="https://www.instagram.com/childrensaidnyc"  >
+        <span class='fab fa-instagram fa-lg'></span>
+      </a>
+
+          </li>
+      <li>
+      <a class="social-media-link-icon--linkedin" href="https://www.linkedin.com/company/childrensaidnyc/"  >
+        <span class='fab fa-linkedin fa-lg'></span>
+      </a>
+
+          </li>
+      <li>
+      <a class="social-media-link-icon--youtube" href="https://www.youtube.com/user/childrensaidnyc"  >
+        <span class='fab fa-youtube fa-lg'></span>
+      </a>
+
+          </li>
+  </ul>
+
+  </div>
+
+            </div>
+            <div class="header__menu-main">
+              <div id="block-mainnavigation" class="menu--primary block block-menu-block block-menu-blockmain">
+  
+    
+              <ul block="block-mainnavigation" class="menu menu--main" data-depth="0">
+                      <li class="menu__item menu__item--home">
+        <a href="/" class="menu__link" aria-controls="submenu--home" data-drupal-link-system-path="&lt;front&gt;">Home</a>
+              </li>
+                      <li class="menu__item menu__item--collapsed menu__item--about">
+        <a href="/about" class="menu__link" aria-controls="submenu--about" data-drupal-link-system-path="node/485">About</a>
+              </li>
+                      <li class="menu__item menu__item--collapsed menu__item--impact">
+        <a href="/impact" class="menu__link" aria-controls="submenu--impact" data-drupal-link-system-path="node/491">Impact</a>
+              </li>
+                      <li class="menu__item menu__item--collapsed menu__item--programs">
+        <a href="/programs" class="menu__link" aria-controls="submenu--programs" data-drupal-link-system-path="node/51">Programs</a>
+              </li>
+                      <li class="menu__item menu__item--collapsed menu__item--get-involved">
+        <a href="/get-involved" class="menu__link" aria-controls="submenu--get-involved" data-drupal-link-system-path="node/492">Get Involved</a>
+              </li>
+                      <li class="menu__item menu__item--search">
+        <a href="/search" class="menu__link" aria-controls="submenu--search" data-drupal-link-system-path="node/926">Search</a>
+              </li>
+        </ul>
+  
+
+
+  </div>
+
+              <div id="block-donatebutton" class="button--donate block block-block-content block-block-content8e4d0c3f-782b-48bb-91ca-3d6c5243fa7e">
+  
+    
+      
+    
+
+  
+            <div class="field field--name-field-link field--type-link field--label-hidden field__item"><a href="https://giving.childrensaidnyc.org/page/52671/donate/1">Donate</a></div>
+      
+  </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+      <div class="nav--mega-wrapper" aria-hidden="true">
+      <div class="nav--mega-inner">
+        <div class="submenu submenu--about nav--mega" id="submenu--about" aria-hidden="true">
+          <div class="l--constrained">
+              <div id="block-mainnavigation-2" class="subnav subnav--about block block-menu-block block-menu-blockmain">
+  
+    
+                <ul class="menu menu--main" data-depth="0">
+                <li class="menu__item menu__item--about">
+        <a href="/about" title="Show only on mobile" class="menu__link" data-drupal-link-system-path="node/485">About</a>
+              </li>
+                <li class="menu__item menu__item--our-approach">
+        <a href="/about#our_approach" class="menu__link" data-drupal-link-system-path="node/485">Our Approach</a>
+              </li>
+                <li class="menu__item menu__item--leadership">
+        <a href="/about#leadership" class="menu__link" data-drupal-link-system-path="node/485">Leadership</a>
+              </li>
+                <li class="menu__item menu__item--history">
+        <a href="/about/history-innovation" class="menu__link" data-drupal-link-system-path="node/563">History</a>
+              </li>
+                <li class="menu__item menu__item--orphan-train">
+        <a href="/about/orphan-train-movement" class="menu__link" data-drupal-link-system-path="node/564">Orphan Train</a>
+              </li>
+                <li class="menu__item menu__item--financials">
+        <a href="/about/financials" class="menu__link" data-drupal-link-system-path="node/780">Financials</a>
+              </li>
+                <li class="menu__item menu__item--careers">
+        <a href="/about/careers" class="menu__link" data-drupal-link-system-path="node/589">Careers</a>
+              </li>
+        </ul>
+  
+
+
+  </div>
+<div class="views-element-container block--navigation--promo block block-views block-views-blocknavigation-promo-block-1" id="block-views-block-navigation-promo-block-1">
+  
+    
+    <div block="block-views-block-navigation-promo-block-1"><div class="js-view-dom-id-838322ed6069b1e862c6825260358a010961b416e280783cdda06dd96e575c0a">
+  
+  
+  
+
+  
+  
+  
+
+      <div class="views-row">
+
+<article    
+  
+  
+  
+  
+ class="teaser"
+>
+
+    <figure class="teaser__image">
+    <a href="https://issuu.com/casny/docs/annualreport_fy2022?fr=sMDQ4MjU4NzY1MzE">  <img loading="lazy" src="/sites/default/files/styles/medium_scale_only/public/media/images/promo/2022_annual_report_promo.jpg?itok=RUJIoWdC" width="350" height="212" alt="2022 Annual Report" typeof="foaf:Image" />
+
+
+</a>  </figure>
+  
+  
+  <div class="teaser__content">
+    <header class="teaser__header">
+            <h3 class="teaser__title"><a href="https://issuu.com/casny/docs/annualreport_fy2022?fr=sMDQ4MjU4NzY1MzE">Annual Report</a></h3>
+    </header>
+
+    <div class="teaser__body"><p>Our 2022 Annual Report is titled “Believe.” At Children’s Aid, everyone in our dynamic, diverse community is connected by a simple yet core belief: that every child holds promise and potential.</p></div>
+        <div class="teaser__action">
+      
+
+<a href="https://issuu.com/casny/docs/annualreport_fy2022?fr=sMDQ4MjU4NzY1MzE" class="link--more--small">Read More<svg viewBox="0 0 8 12" class="icon icon--arrow">
+    <use xlink:href="#arrow"></use>
+</svg>
+</a>    </div>
+      </div>
+</article></div>
+
+  
+  
+
+  
+  
+
+  
+  
+</div>
+</div>
+
+</div>
+
+
+          </div>
+        </div>
+        <div class="submenu submenu--impact nav--mega" id="submenu--impact" aria-hidden="true">
+          <div class="l--constrained">
+              <div id="block-mainnavigation-3" class="subnav subnav--impact block block-menu-block block-menu-blockmain">
+  
+    
+                <ul class="menu menu--main" data-depth="0">
+                <li class="menu__item menu__item--impact">
+        <a href="/impact" class="menu__link" data-drupal-link-system-path="node/491">Impact</a>
+              </li>
+                <li class="menu__item menu__item--our-stories">
+        <a href="/impact/every-step-way" class="menu__link" data-drupal-link-system-path="node/314">Our Stories</a>
+              </li>
+                <li class="menu__item menu__item--public-policy">
+        <a href="/impact/public-policy" class="menu__link" data-drupal-link-system-path="node/570">Public Policy</a>
+              </li>
+                <li class="menu__item menu__item--media-center">
+        <a href="/impact/media-center" class="menu__link" data-drupal-link-system-path="node/1336">Media Center</a>
+              </li>
+        </ul>
+  
+
+
+  </div>
+<div class="views-element-container block--navigation--promo block block-views block-views-blocknavigation-promo-block-2" id="block-views-block-navigation-promo-block-2">
+  
+    
+    <div block="block-views-block-navigation-promo-block-2"><div class="js-view-dom-id-a03d524c77804b755445f60ce7454a8be3e6e9bdcae1c7b71cd8b85e36376629">
+  
+  
+  
+
+  
+  
+  
+
+      <div class="views-row">
+
+<article    
+  
+  
+  
+  
+ class="teaser"
+>
+
+    <figure class="teaser__image">
+    <a href="/media/press-release/gold-winner-nonprofit-excellence-awards">  <img loading="lazy" src="/sites/default/files/styles/medium_scale_only/public/media/images/promo/new%20york%20not%20profit%20trust_0.jpg?itok=M9ZgteWl" width="350" height="257" alt="Thumbnail" title="Nonprofit-Excellence-Award" typeof="foaf:Image" />
+
+
+</a>  </figure>
+  
+  
+  <div class="teaser__content">
+    <header class="teaser__header">
+            <h3 class="teaser__title"><a href="/media/press-release/gold-winner-nonprofit-excellence-awards">An Incredible Honor</a></h3>
+    </header>
+
+    <div class="teaser__body"><p>Children’s Aid wins prestigious Nonprofit Excellence Award.</p></div>
+        <div class="teaser__action">
+      
+
+<a href="/media/press-release/gold-winner-nonprofit-excellence-awards" class="link--more--small">Read Now<svg viewBox="0 0 8 12" class="icon icon--arrow">
+    <use xlink:href="#arrow"></use>
+</svg>
+</a>    </div>
+      </div>
+</article></div>
+
+  
+  
+
+  
+  
+
+  
+  
+</div>
+</div>
+
+</div>
+
+
+          </div>
+        </div>
+        <div class="submenu submenu--programs nav--mega" id="submenu--programs" aria-hidden="true">
+          <div class="l--constrained">
+              <div id="block-mainnavigation-4" class="subnav subnav--programs block block-menu-block block-menu-blockmain">
+  
+    
+                <ul class="menu menu--main menu--main--programs" data-depth="0">
+                <li class="menu__item menu__item--programs">
+        <a href="/programs" class="menu__link" data-drupal-link-system-path="node/51">Programs</a>
+              </li>
+                <li class="menu__item menu__item--expanded menu__item--academic-and-social-emotional-learning">
+        <a href="/programs/academic-social-emotional-learning" class="menu__link" data-drupal-link-system-path="node/1">Academic and Social-Emotional Learning</a>
+                            <ul class="menu menu--main menu--main--programs" data-depth="1">
+                <li class="menu__item menu__item--education-and-leadership">
+        <a href="/programs/academic-social-emotional-learning#education_and_leadership" class="menu__link" data-drupal-link-system-path="node/1">Education and Leadership</a>
+              </li>
+                <li class="menu__item menu__item--summer-enrichment">
+        <a href="/programs/academic-social-emotional-learning#summer_enrichment" class="menu__link" data-drupal-link-system-path="node/1">Summer Enrichment</a>
+              </li>
+                <li class="menu__item menu__item--college-and-career-readiness">
+        <a href="/programs/academic-social-emotional-learning#college_and_career_readiness" class="menu__link" data-drupal-link-system-path="node/1">College and Career Readiness</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu__item menu__item--expanded menu__item--health-and-nutrition">
+        <a href="/programs/health-nutrition" class="menu__link" data-drupal-link-system-path="node/2">Health and Nutrition</a>
+                            <ul class="menu menu--main menu--main--programs" data-depth="1">
+                <li class="menu__item menu__item--health-and-well-being">
+        <a href="/programs/health-nutrition#health_and_well-being" class="menu__link" data-drupal-link-system-path="node/2">Health and Well-Being</a>
+              </li>
+                <li class="menu__item menu__item--sexual-health-and-education">
+        <a href="/programs/health-nutrition#sexual_health_and_education" class="menu__link" data-drupal-link-system-path="node/2">Sexual Health and Education</a>
+              </li>
+                <li class="menu__item menu__item--fitness-and-recreation">
+        <a href="/programs/health-nutrition#fitness_and_recreation" class="menu__link" data-drupal-link-system-path="node/2">Fitness and Recreation</a>
+              </li>
+                <li class="menu__item menu__item--nutrition">
+        <a href="/programs/health-nutrition#nutrition" class="menu__link" data-drupal-link-system-path="node/2">Nutrition</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu__item menu__item--expanded menu__item--family-and-community">
+        <a href="/programs/family-community" class="menu__link" data-drupal-link-system-path="node/3">Family and Community</a>
+                            <ul class="menu menu--main menu--main--programs" data-depth="1">
+                <li class="menu__item menu__item--family-supports">
+        <a href="/programs/family-community#family_supports" class="menu__link" data-drupal-link-system-path="node/3">Family Supports</a>
+              </li>
+                <li class="menu__item menu__item--community-building">
+        <a href="/programs/family-community#community_building" class="menu__link" data-drupal-link-system-path="node/3">Community Building</a>
+              </li>
+                <li class="menu__item menu__item--advocacy-and-public-policy">
+        <a href="/programs/family-community#advocacy_and_public_policy" class="menu__link" data-drupal-link-system-path="node/3">Advocacy and Public Policy</a>
+              </li>
+                <li class="menu__item menu__item--volunteerism-and-giving">
+        <a href="/programs/family-community#volunteerism_and_giving" class="menu__link" data-drupal-link-system-path="node/3">Volunteerism and Giving</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu__item menu__item--site-locations">
+        <a href="/programs/location" class="menu__link" data-drupal-link-system-path="node/3776">Site Locations</a>
+              </li>
+        </ul>
+  
+
+
+  </div>
+<div id="block-findaprogrambutton" class="button--outlined block block-block-content block-block-contentfa61dacc-c522-41e7-a501-41a581337c04">
+  
+    
+      
+    
+
+  
+            <div class="field field--name-field-link field--type-link field--label-hidden field__item"><a href="/programs/finder">Find a Program</a></div>
+      
+  </div>
+
+
+          </div>
+        </div>
+        <div class="submenu submenu--involved nav--mega" id="submenu--get-involved" aria-hidden="true">
+          <div class="l--constrained">
+              <div id="block-mainnavigation-5" class="subnav subnav--get-involved block block-menu-block block-menu-blockmain">
+  
+    
+                <ul class="menu menu--main" data-depth="0">
+                <li class="menu__item menu__item--get-involved">
+        <a href="/get-involved" class="menu__link" data-drupal-link-system-path="node/492">Get Involved</a>
+              </li>
+                <li class="menu__item menu__item--donate">
+        <a href="https://giving.childrensaidnyc.org/page/52671/donate/1" class="menu__link">Donate</a>
+              </li>
+                <li class="menu__item menu__item--become-a-corporate-partner">
+        <a href="/programs/corporate-engagement" class="menu__link" data-drupal-link-system-path="node/84">Become a Corporate Partner</a>
+              </li>
+                <li class="menu__item menu__item--host-a-fundraiser">
+        <a href="/get-involved/host-fundraiser" class="menu__link" data-drupal-link-system-path="node/497">Host a Fundraiser</a>
+              </li>
+                <li class="menu__item menu__item--sponsor-an-event">
+        <a href="/get-involved/sponsor-event" class="menu__link" data-drupal-link-system-path="node/496">Sponsor an Event</a>
+              </li>
+                <li class="menu__item menu__item--learn-about-planned-giving">
+        <a href="https://plannedgiving.childrensaidnyc.org/" class="menu__link">Learn about Planned Giving</a>
+              </li>
+                <li class="menu__item menu__item--join-the-young-professionals-group">
+        <a href="/programs/become-childrens-aid-champion" class="menu__link" data-drupal-link-system-path="node/85">Join the Young Professionals Group</a>
+              </li>
+                <li class="menu__item menu__item--volunteer">
+        <a href="/programs/volunteering" class="menu__link" data-drupal-link-system-path="node/83">Volunteer</a>
+              </li>
+                <li class="menu__item menu__item--take-action">
+        <a href="/get-involved/take-action" class="menu__link" data-drupal-link-system-path="node/3646">Take Action</a>
+              </li>
+        </ul>
+  
+
+
+  </div>
+<div class="views-element-container block--navigation--promo block block-views block-views-blocknavigation-promo-block-3" id="block-views-block-navigation-promo-block-3">
+  
+    
+    <div block="block-views-block-navigation-promo-block-3"><div class="js-view-dom-id-b43b9f04fa57218bb3b0524149ae22d7359549475daa61354c2b60b1c1dcd70c">
+  
+  
+  
+
+  
+  
+  
+
+      <div class="views-row">
+
+<article    
+  
+  
+  
+  
+ class="teaser"
+>
+
+    <figure class="teaser__image">
+    <a href="/golf-classic">  <img loading="lazy" src="/sites/default/files/styles/medium_scale_only/public/media/images/promo/golf%20classic.JPG?itok=elaEup11" width="350" height="184" alt="Golf Classic 2024" typeof="foaf:Image" />
+
+
+</a>  </figure>
+  
+  
+  <div class="teaser__content">
+    <header class="teaser__header">
+            <h3 class="teaser__title"><a href="/golf-classic">Golf Classic</a></h3>
+    </header>
+
+    <div class="teaser__body"><p><span><span><span>Join us on May 6 for our 25th Annual Golf Classic.</span></span></span></p></div>
+        <div class="teaser__action">
+      
+
+<a href="/golf-classic" class="link--more--small">Learn More<svg viewBox="0 0 8 12" class="icon icon--arrow">
+    <use xlink:href="#arrow"></use>
+</svg>
+</a>    </div>
+      </div>
+</article></div>
+
+  
+  
+
+  
+  
+
+  
+  
+</div>
+</div>
+
+</div>
+
+
+          </div>
+        </div>
+        <div class="submenu submenu--search nav--mega" id="submenu--search" aria-hidden="true">
+          <div class="l--constrained">
+            <h2 class="title title--jumbo">Search</h2>
+              <div>
+    <div class="site-search-form search-form block block-ca-utility block-site-search-block" data-drupal-selector="site-search-form" id="block-sitesearchblock">
+  
+    
+      <form block="block-sitesearchblock" action="/search" method="get" id="site-search-form" accept-charset="UTF-8">
+  <div class="js-form-item form-item js-form-type-textfield form-item-search js-form-item-search">
+      <label class="visually-hidden" for="edit-search">Search</label>
+        <input placeholder="Search Term" data-drupal-selector="edit-search" type="text" id="edit-search" name="search" value="" size="60" maxlength="128" class="form-text" />
+
+        </div>
+<input data-drupal-selector="edit-submit" type="submit" id="edit-submit--2" value="Search" class="button js-form-submit form-submit" />
+<input autocomplete="off" data-drupal-selector="form-nqv85syklqosvkf9p1i8-knrtzzwitfhi-goszbr9yq" type="hidden" name="form_build_id" value="form-nQv85SYKLqosVkF9p1I8-kNrtzzWITFHi-GOszbr9yQ" />
+<input data-drupal-selector="edit-site-search-form" type="hidden" name="form_id" value="site_search_form" />
+
+</form>
+
+  </div>
+
+  </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+      
+  
+
+  
+</header>
+<div class="nav--mobile-wrapper" aria-hidden="true">
+  <div class="search--wrapper">
+      <div>
+    <div class="site-search-form search-form block block-ca-utility block-site-search-block" data-drupal-selector="site-search-form" id="block-sitesearchblock">
+  
+    
+      <form block="block-sitesearchblock" action="/search" method="get" id="site-search-form" accept-charset="UTF-8">
+  <div class="js-form-item form-item js-form-type-textfield form-item-search js-form-item-search">
+      <label class="visually-hidden" for="edit-search">Search</label>
+        <input placeholder="Search Term" data-drupal-selector="edit-search" type="text" id="edit-search" name="search" value="" size="60" maxlength="128" class="form-text" />
+
+        </div>
+<input data-drupal-selector="edit-submit" type="submit" id="edit-submit--2" value="Search" class="button js-form-submit form-submit" />
+<input autocomplete="off" data-drupal-selector="form-nqv85syklqosvkf9p1i8-knrtzzwitfhi-goszbr9yq" type="hidden" name="form_build_id" value="form-nQv85SYKLqosVkF9p1I8-kNrtzzWITFHi-GOszbr9yQ" />
+<input data-drupal-selector="edit-site-search-form" type="hidden" name="form_id" value="site_search_form" />
+
+</form>
+
+  </div>
+
+  </div>
+
+  </div>
+  <div class="nav--mobile--primary">
+    <div id="block-mainnavigation" class="menu--primary block block-menu-block block-menu-blockmain">
+  
+    
+              <ul block="block-mainnavigation" class="menu menu--main" data-depth="0">
+                      <li class="menu__item menu__item--home">
+        <a href="/" class="menu__link" aria-controls="submenu--home" data-drupal-link-system-path="&lt;front&gt;">Home</a>
+              </li>
+                      <li class="menu__item menu__item--collapsed menu__item--about">
+        <a href="/about" class="menu__link" aria-controls="submenu--about" data-drupal-link-system-path="node/485">About</a>
+              </li>
+                      <li class="menu__item menu__item--collapsed menu__item--impact">
+        <a href="/impact" class="menu__link" aria-controls="submenu--impact" data-drupal-link-system-path="node/491">Impact</a>
+              </li>
+                      <li class="menu__item menu__item--collapsed menu__item--programs">
+        <a href="/programs" class="menu__link" aria-controls="submenu--programs" data-drupal-link-system-path="node/51">Programs</a>
+              </li>
+                      <li class="menu__item menu__item--collapsed menu__item--get-involved">
+        <a href="/get-involved" class="menu__link" aria-controls="submenu--get-involved" data-drupal-link-system-path="node/492">Get Involved</a>
+              </li>
+                      <li class="menu__item menu__item--search">
+        <a href="/search" class="menu__link" aria-controls="submenu--search" data-drupal-link-system-path="node/926">Search</a>
+              </li>
+        </ul>
+  
+
+
+  </div>
+
+    <div id="block-donatebutton" class="button--donate block block-block-content block-block-content8e4d0c3f-782b-48bb-91ca-3d6c5243fa7e">
+  
+    
+      
+    
+
+  
+            <div class="field field--name-field-link field--type-link field--label-hidden field__item"><a href="https://giving.childrensaidnyc.org/page/52671/donate/1">Donate</a></div>
+      
+  </div>
+
+    <nav role="navigation" aria-labelledby="block-headerutility-menu" id="block-headerutility">
+            
+  <h2 class="visually-hidden" id="block-headerutility-menu">Header Utility</h2>
+  
+
+                  <ul class="menu menu--header-utility" data-depth="0">
+                <li class="menu__item menu__item--contact-us">
+        <a href="/contact" class="menu__link" data-drupal-link-system-path="node/316">Contact Us</a>
+              </li>
+                <li class="menu__item menu__item--news-and-press">
+        <a href="/news-and-press" class="menu__link" data-drupal-link-system-path="node/772">News and Press</a>
+              </li>
+                <li class="menu__item menu__item--careers">
+        <a href="/about/careers" class="menu__link" data-drupal-link-system-path="node/589">Careers</a>
+              </li>
+                <li class="menu__item menu__item--sign-up">
+        <a href="https://giving.childrensaidnyc.org/page/52956/subscribe/1" class="menu__link">Sign Up</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+  </div>
+      <div class="nav--mobile--secondary">
+      <button class="mega-back">Back</button>
+              <div id="mobile--about" class="mobile--subnav mobile--about">
+            <div id="block-mainnavigation-2" class="subnav subnav--about block block-menu-block block-menu-blockmain">
+  
+    
+                <ul class="menu menu--main" data-depth="0">
+                <li class="menu__item menu__item--about">
+        <a href="/about" title="Show only on mobile" class="menu__link" data-drupal-link-system-path="node/485">About</a>
+              </li>
+                <li class="menu__item menu__item--our-approach">
+        <a href="/about#our_approach" class="menu__link" data-drupal-link-system-path="node/485">Our Approach</a>
+              </li>
+                <li class="menu__item menu__item--leadership">
+        <a href="/about#leadership" class="menu__link" data-drupal-link-system-path="node/485">Leadership</a>
+              </li>
+                <li class="menu__item menu__item--history">
+        <a href="/about/history-innovation" class="menu__link" data-drupal-link-system-path="node/563">History</a>
+              </li>
+                <li class="menu__item menu__item--orphan-train">
+        <a href="/about/orphan-train-movement" class="menu__link" data-drupal-link-system-path="node/564">Orphan Train</a>
+              </li>
+                <li class="menu__item menu__item--financials">
+        <a href="/about/financials" class="menu__link" data-drupal-link-system-path="node/780">Financials</a>
+              </li>
+                <li class="menu__item menu__item--careers">
+        <a href="/about/careers" class="menu__link" data-drupal-link-system-path="node/589">Careers</a>
+              </li>
+        </ul>
+  
+
+
+  </div>
+<div class="views-element-container block--navigation--promo block block-views block-views-blocknavigation-promo-block-1" id="block-views-block-navigation-promo-block-1">
+  
+    
+    <div block="block-views-block-navigation-promo-block-1"><div class="js-view-dom-id-838322ed6069b1e862c6825260358a010961b416e280783cdda06dd96e575c0a">
+  
+  
+  
+
+  
+  
+  
+
+      <div class="views-row">
+
+<article    
+  
+  
+  
+  
+ class="teaser"
+>
+
+    <figure class="teaser__image">
+    <a href="https://issuu.com/casny/docs/annualreport_fy2022?fr=sMDQ4MjU4NzY1MzE">  <img loading="lazy" src="/sites/default/files/styles/medium_scale_only/public/media/images/promo/2022_annual_report_promo.jpg?itok=RUJIoWdC" width="350" height="212" alt="2022 Annual Report" typeof="foaf:Image" />
+
+
+</a>  </figure>
+  
+  
+  <div class="teaser__content">
+    <header class="teaser__header">
+            <h3 class="teaser__title"><a href="https://issuu.com/casny/docs/annualreport_fy2022?fr=sMDQ4MjU4NzY1MzE">Annual Report</a></h3>
+    </header>
+
+    <div class="teaser__body"><p>Our 2022 Annual Report is titled “Believe.” At Children’s Aid, everyone in our dynamic, diverse community is connected by a simple yet core belief: that every child holds promise and potential.</p></div>
+        <div class="teaser__action">
+      
+
+<a href="https://issuu.com/casny/docs/annualreport_fy2022?fr=sMDQ4MjU4NzY1MzE" class="link--more--small">Read More<svg viewBox="0 0 8 12" class="icon icon--arrow">
+    <use xlink:href="#arrow"></use>
+</svg>
+</a>    </div>
+      </div>
+</article></div>
+
+  
+  
+
+  
+  
+
+  
+  
+</div>
+</div>
+
+</div>
+
+
+        </div>
+                    <div id="mobile--impact" class="mobile--subnav mobile--impact">
+            <div id="block-mainnavigation-3" class="subnav subnav--impact block block-menu-block block-menu-blockmain">
+  
+    
+                <ul class="menu menu--main" data-depth="0">
+                <li class="menu__item menu__item--impact">
+        <a href="/impact" class="menu__link" data-drupal-link-system-path="node/491">Impact</a>
+              </li>
+                <li class="menu__item menu__item--our-stories">
+        <a href="/impact/every-step-way" class="menu__link" data-drupal-link-system-path="node/314">Our Stories</a>
+              </li>
+                <li class="menu__item menu__item--public-policy">
+        <a href="/impact/public-policy" class="menu__link" data-drupal-link-system-path="node/570">Public Policy</a>
+              </li>
+                <li class="menu__item menu__item--media-center">
+        <a href="/impact/media-center" class="menu__link" data-drupal-link-system-path="node/1336">Media Center</a>
+              </li>
+        </ul>
+  
+
+
+  </div>
+<div class="views-element-container block--navigation--promo block block-views block-views-blocknavigation-promo-block-2" id="block-views-block-navigation-promo-block-2">
+  
+    
+    <div block="block-views-block-navigation-promo-block-2"><div class="js-view-dom-id-a03d524c77804b755445f60ce7454a8be3e6e9bdcae1c7b71cd8b85e36376629">
+  
+  
+  
+
+  
+  
+  
+
+      <div class="views-row">
+
+<article    
+  
+  
+  
+  
+ class="teaser"
+>
+
+    <figure class="teaser__image">
+    <a href="/media/press-release/gold-winner-nonprofit-excellence-awards">  <img loading="lazy" src="/sites/default/files/styles/medium_scale_only/public/media/images/promo/new%20york%20not%20profit%20trust_0.jpg?itok=M9ZgteWl" width="350" height="257" alt="Thumbnail" title="Nonprofit-Excellence-Award" typeof="foaf:Image" />
+
+
+</a>  </figure>
+  
+  
+  <div class="teaser__content">
+    <header class="teaser__header">
+            <h3 class="teaser__title"><a href="/media/press-release/gold-winner-nonprofit-excellence-awards">An Incredible Honor</a></h3>
+    </header>
+
+    <div class="teaser__body"><p>Children’s Aid wins prestigious Nonprofit Excellence Award.</p></div>
+        <div class="teaser__action">
+      
+
+<a href="/media/press-release/gold-winner-nonprofit-excellence-awards" class="link--more--small">Read Now<svg viewBox="0 0 8 12" class="icon icon--arrow">
+    <use xlink:href="#arrow"></use>
+</svg>
+</a>    </div>
+      </div>
+</article></div>
+
+  
+  
+
+  
+  
+
+  
+  
+</div>
+</div>
+
+</div>
+
+
+        </div>
+                    <div id="mobile--programs" class="mobile--subnav mobile--programs">
+            <div id="block-mainnavigation-4" class="subnav subnav--programs block block-menu-block block-menu-blockmain">
+  
+    
+                <ul class="menu menu--main menu--main--programs" data-depth="0">
+                <li class="menu__item menu__item--programs">
+        <a href="/programs" class="menu__link" data-drupal-link-system-path="node/51">Programs</a>
+              </li>
+                <li class="menu__item menu__item--expanded menu__item--academic-and-social-emotional-learning">
+        <a href="/programs/academic-social-emotional-learning" class="menu__link" data-drupal-link-system-path="node/1">Academic and Social-Emotional Learning</a>
+                            <ul class="menu menu--main menu--main--programs" data-depth="1">
+                <li class="menu__item menu__item--education-and-leadership">
+        <a href="/programs/academic-social-emotional-learning#education_and_leadership" class="menu__link" data-drupal-link-system-path="node/1">Education and Leadership</a>
+              </li>
+                <li class="menu__item menu__item--summer-enrichment">
+        <a href="/programs/academic-social-emotional-learning#summer_enrichment" class="menu__link" data-drupal-link-system-path="node/1">Summer Enrichment</a>
+              </li>
+                <li class="menu__item menu__item--college-and-career-readiness">
+        <a href="/programs/academic-social-emotional-learning#college_and_career_readiness" class="menu__link" data-drupal-link-system-path="node/1">College and Career Readiness</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu__item menu__item--expanded menu__item--health-and-nutrition">
+        <a href="/programs/health-nutrition" class="menu__link" data-drupal-link-system-path="node/2">Health and Nutrition</a>
+                            <ul class="menu menu--main menu--main--programs" data-depth="1">
+                <li class="menu__item menu__item--health-and-well-being">
+        <a href="/programs/health-nutrition#health_and_well-being" class="menu__link" data-drupal-link-system-path="node/2">Health and Well-Being</a>
+              </li>
+                <li class="menu__item menu__item--sexual-health-and-education">
+        <a href="/programs/health-nutrition#sexual_health_and_education" class="menu__link" data-drupal-link-system-path="node/2">Sexual Health and Education</a>
+              </li>
+                <li class="menu__item menu__item--fitness-and-recreation">
+        <a href="/programs/health-nutrition#fitness_and_recreation" class="menu__link" data-drupal-link-system-path="node/2">Fitness and Recreation</a>
+              </li>
+                <li class="menu__item menu__item--nutrition">
+        <a href="/programs/health-nutrition#nutrition" class="menu__link" data-drupal-link-system-path="node/2">Nutrition</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu__item menu__item--expanded menu__item--family-and-community">
+        <a href="/programs/family-community" class="menu__link" data-drupal-link-system-path="node/3">Family and Community</a>
+                            <ul class="menu menu--main menu--main--programs" data-depth="1">
+                <li class="menu__item menu__item--family-supports">
+        <a href="/programs/family-community#family_supports" class="menu__link" data-drupal-link-system-path="node/3">Family Supports</a>
+              </li>
+                <li class="menu__item menu__item--community-building">
+        <a href="/programs/family-community#community_building" class="menu__link" data-drupal-link-system-path="node/3">Community Building</a>
+              </li>
+                <li class="menu__item menu__item--advocacy-and-public-policy">
+        <a href="/programs/family-community#advocacy_and_public_policy" class="menu__link" data-drupal-link-system-path="node/3">Advocacy and Public Policy</a>
+              </li>
+                <li class="menu__item menu__item--volunteerism-and-giving">
+        <a href="/programs/family-community#volunteerism_and_giving" class="menu__link" data-drupal-link-system-path="node/3">Volunteerism and Giving</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu__item menu__item--site-locations">
+        <a href="/programs/location" class="menu__link" data-drupal-link-system-path="node/3776">Site Locations</a>
+              </li>
+        </ul>
+  
+
+
+  </div>
+<div id="block-findaprogrambutton" class="button--outlined block block-block-content block-block-contentfa61dacc-c522-41e7-a501-41a581337c04">
+  
+    
+      
+    
+
+  
+            <div class="field field--name-field-link field--type-link field--label-hidden field__item"><a href="/programs/finder">Find a Program</a></div>
+      
+  </div>
+
+
+        </div>
+                    <div id="mobile--get-involved" class="mobile--subnav mobile--get-involved">
+            <div id="block-mainnavigation-5" class="subnav subnav--get-involved block block-menu-block block-menu-blockmain">
+  
+    
+                <ul class="menu menu--main" data-depth="0">
+                <li class="menu__item menu__item--get-involved">
+        <a href="/get-involved" class="menu__link" data-drupal-link-system-path="node/492">Get Involved</a>
+              </li>
+                <li class="menu__item menu__item--donate">
+        <a href="https://giving.childrensaidnyc.org/page/52671/donate/1" class="menu__link">Donate</a>
+              </li>
+                <li class="menu__item menu__item--become-a-corporate-partner">
+        <a href="/programs/corporate-engagement" class="menu__link" data-drupal-link-system-path="node/84">Become a Corporate Partner</a>
+              </li>
+                <li class="menu__item menu__item--host-a-fundraiser">
+        <a href="/get-involved/host-fundraiser" class="menu__link" data-drupal-link-system-path="node/497">Host a Fundraiser</a>
+              </li>
+                <li class="menu__item menu__item--sponsor-an-event">
+        <a href="/get-involved/sponsor-event" class="menu__link" data-drupal-link-system-path="node/496">Sponsor an Event</a>
+              </li>
+                <li class="menu__item menu__item--learn-about-planned-giving">
+        <a href="https://plannedgiving.childrensaidnyc.org/" class="menu__link">Learn about Planned Giving</a>
+              </li>
+                <li class="menu__item menu__item--join-the-young-professionals-group">
+        <a href="/programs/become-childrens-aid-champion" class="menu__link" data-drupal-link-system-path="node/85">Join the Young Professionals Group</a>
+              </li>
+                <li class="menu__item menu__item--volunteer">
+        <a href="/programs/volunteering" class="menu__link" data-drupal-link-system-path="node/83">Volunteer</a>
+              </li>
+                <li class="menu__item menu__item--take-action">
+        <a href="/get-involved/take-action" class="menu__link" data-drupal-link-system-path="node/3646">Take Action</a>
+              </li>
+        </ul>
+  
+
+
+  </div>
+<div class="views-element-container block--navigation--promo block block-views block-views-blocknavigation-promo-block-3" id="block-views-block-navigation-promo-block-3">
+  
+    
+    <div block="block-views-block-navigation-promo-block-3"><div class="js-view-dom-id-b43b9f04fa57218bb3b0524149ae22d7359549475daa61354c2b60b1c1dcd70c">
+  
+  
+  
+
+  
+  
+  
+
+      <div class="views-row">
+
+<article    
+  
+  
+  
+  
+ class="teaser"
+>
+
+    <figure class="teaser__image">
+    <a href="/golf-classic">  <img loading="lazy" src="/sites/default/files/styles/medium_scale_only/public/media/images/promo/golf%20classic.JPG?itok=elaEup11" width="350" height="184" alt="Golf Classic 2024" typeof="foaf:Image" />
+
+
+</a>  </figure>
+  
+  
+  <div class="teaser__content">
+    <header class="teaser__header">
+            <h3 class="teaser__title"><a href="/golf-classic">Golf Classic</a></h3>
+    </header>
+
+    <div class="teaser__body"><p><span><span><span>Join us on May 6 for our 25th Annual Golf Classic.</span></span></span></p></div>
+        <div class="teaser__action">
+      
+
+<a href="/golf-classic" class="link--more--small">Learn More<svg viewBox="0 0 8 12" class="icon icon--arrow">
+    <use xlink:href="#arrow"></use>
+</svg>
+</a>    </div>
+      </div>
+</article></div>
+
+  
+  
+
+  
+  
+
+  
+  
+</div>
+</div>
+
+</div>
+
+
+        </div>
+          </div>
+  </div>
+<main role="main">
+  <a id="main-content" tabindex="-1"></a>
+  
+
+  
+
+  <div class="block block-">
+  
+    
+      <div data-drupal-messages-fallback class="hidden"></div>
+
+  </div>
+
+
+  
+
+  <div class="layout-content">
+    <div>
+    
+
+<div id="block-cas-content" class="block block-system block-system-main-block">
+  
+    
+      The requested page could not be found.
+  </div>
+
+  </div>
+
+</div>
+  
+    
+</main>
+
+
+<footer role="contentinfo">
+  
+  
+    <div class="footer__top reversed">
+    <div class="l--constrained">
+      <div id="block-email-subscribe-block" class="footer__email-subscribe block block-ca-utility block-email-subscribe-block">
+<iframe src="https://donate.childrensaidnyc.org/page/52960/subscribe/1" title="Email Only Subscribe" style="width: 100%; height: auto; border: none;"></iframe>
+</div>
+
+      <div id="block-donationoptionsinthefooter" class="footer__donation-options block block-block-content block-block-content02bc3350-1473-448b-92d0-543a05aa20d9">
+  
+      <h2 class="title--small">Ready to Donate?</h2>
+    
+        <p class="title--subtitle">Make a gift that gives every child an opportunity.</p>
+
+  
+      <ul class="list--amounts field field--name-field-donation-links field--type-link field--label-hidden field__items">
+              <li class="field__item"><a href="https://giving.childrensaidnyc.org/page/52671/donate/1?set_DonationLevel=1">$50</a></li>
+              <li class="field__item"><a href="https://giving.childrensaidnyc.org/page/52671/donate/1?set_DonationLevel=2">$100</a></li>
+              <li class="field__item"><a href="https://giving.childrensaidnyc.org/page/52671/donate/1?set_DonationLevel=3">$550</a></li>
+              <li class="field__item"><a href="https://giving.childrensaidnyc.org/page/52671/donate/1?set_DonationLevel=6">Other</a></li>
+          </ul>
+  
+  </div>
+
+      
+<div id="block-accountability-logo-block" class="footer__accountability block block-core block-accountability-logo-block">
+  
+    
+  <ul class="list--logos">
+    <li><a href="https://www.charitynavigator.org/ein/135562191" class="logo--navigator">Charity Navigator</a></li>
+    <li><a href="https://www.guidestar.org/profile/13-5562191" class="logo--guidestar">GuideStar</a></li>
+  </ul>
+</div>
+
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <div class="footer__navigation l--constrained">
+      <div id="block-mainnavigation-6" class="footer__menu-main block block-menu-block block-menu-blockmain">
+  
+    
+                <ul class="menu menu--main" data-depth="0">
+                <li class="menu__item menu__item--home">
+        <a href="/" class="menu__link" data-drupal-link-system-path="&lt;front&gt;">Home</a>
+              </li>
+                <li class="menu__item menu__item--expanded menu__item--about">
+        <a href="/about" class="menu__link" data-drupal-link-system-path="node/485">About</a>
+                            <ul class="menu menu--main" data-depth="1">
+                <li class="menu__item menu__item--about">
+        <a href="/about" title="Show only on mobile" class="menu__link" data-drupal-link-system-path="node/485">About</a>
+              </li>
+                <li class="menu__item menu__item--our-approach">
+        <a href="/about#our_approach" class="menu__link" data-drupal-link-system-path="node/485">Our Approach</a>
+              </li>
+                <li class="menu__item menu__item--leadership">
+        <a href="/about#leadership" class="menu__link" data-drupal-link-system-path="node/485">Leadership</a>
+              </li>
+                <li class="menu__item menu__item--history">
+        <a href="/about/history-innovation" class="menu__link" data-drupal-link-system-path="node/563">History</a>
+              </li>
+                <li class="menu__item menu__item--orphan-train">
+        <a href="/about/orphan-train-movement" class="menu__link" data-drupal-link-system-path="node/564">Orphan Train</a>
+              </li>
+                <li class="menu__item menu__item--financials">
+        <a href="/about/financials" class="menu__link" data-drupal-link-system-path="node/780">Financials</a>
+              </li>
+                <li class="menu__item menu__item--careers">
+        <a href="/about/careers" class="menu__link" data-drupal-link-system-path="node/589">Careers</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu__item menu__item--expanded menu__item--impact">
+        <a href="/impact" class="menu__link" data-drupal-link-system-path="node/491">Impact</a>
+                            <ul class="menu menu--main" data-depth="1">
+                <li class="menu__item menu__item--impact">
+        <a href="/impact" class="menu__link" data-drupal-link-system-path="node/491">Impact</a>
+              </li>
+                <li class="menu__item menu__item--our-stories">
+        <a href="/impact/every-step-way" class="menu__link" data-drupal-link-system-path="node/314">Our Stories</a>
+              </li>
+                <li class="menu__item menu__item--public-policy">
+        <a href="/impact/public-policy" class="menu__link" data-drupal-link-system-path="node/570">Public Policy</a>
+              </li>
+                <li class="menu__item menu__item--media-center">
+        <a href="/impact/media-center" class="menu__link" data-drupal-link-system-path="node/1336">Media Center</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu__item menu__item--expanded menu__item--programs">
+        <a href="/programs" class="menu__link" data-drupal-link-system-path="node/51">Programs</a>
+                            <ul class="menu menu--main" data-depth="1">
+                <li class="menu__item menu__item--programs">
+        <a href="/programs" class="menu__link" data-drupal-link-system-path="node/51">Programs</a>
+              </li>
+                <li class="menu__item menu__item--collapsed menu__item--academic-and-social-emotional-learning">
+        <a href="/programs/academic-social-emotional-learning" class="menu__link" data-drupal-link-system-path="node/1">Academic and Social-Emotional Learning</a>
+              </li>
+                <li class="menu__item menu__item--collapsed menu__item--health-and-nutrition">
+        <a href="/programs/health-nutrition" class="menu__link" data-drupal-link-system-path="node/2">Health and Nutrition</a>
+              </li>
+                <li class="menu__item menu__item--collapsed menu__item--family-and-community">
+        <a href="/programs/family-community" class="menu__link" data-drupal-link-system-path="node/3">Family and Community</a>
+              </li>
+                <li class="menu__item menu__item--site-locations">
+        <a href="/programs/location" class="menu__link" data-drupal-link-system-path="node/3776">Site Locations</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu__item menu__item--expanded menu__item--get-involved">
+        <a href="/get-involved" class="menu__link" data-drupal-link-system-path="node/492">Get Involved</a>
+                            <ul class="menu menu--main" data-depth="1">
+                <li class="menu__item menu__item--get-involved">
+        <a href="/get-involved" class="menu__link" data-drupal-link-system-path="node/492">Get Involved</a>
+              </li>
+                <li class="menu__item menu__item--donate">
+        <a href="https://giving.childrensaidnyc.org/page/52671/donate/1" class="menu__link">Donate</a>
+              </li>
+                <li class="menu__item menu__item--become-a-corporate-partner">
+        <a href="/programs/corporate-engagement" class="menu__link" data-drupal-link-system-path="node/84">Become a Corporate Partner</a>
+              </li>
+                <li class="menu__item menu__item--host-a-fundraiser">
+        <a href="/get-involved/host-fundraiser" class="menu__link" data-drupal-link-system-path="node/497">Host a Fundraiser</a>
+              </li>
+                <li class="menu__item menu__item--sponsor-an-event">
+        <a href="/get-involved/sponsor-event" class="menu__link" data-drupal-link-system-path="node/496">Sponsor an Event</a>
+              </li>
+                <li class="menu__item menu__item--learn-about-planned-giving">
+        <a href="https://plannedgiving.childrensaidnyc.org/" class="menu__link">Learn about Planned Giving</a>
+              </li>
+                <li class="menu__item menu__item--join-the-young-professionals-group">
+        <a href="/programs/become-childrens-aid-champion" class="menu__link" data-drupal-link-system-path="node/85">Join the Young Professionals Group</a>
+              </li>
+                <li class="menu__item menu__item--volunteer">
+        <a href="/programs/volunteering" class="menu__link" data-drupal-link-system-path="node/83">Volunteer</a>
+              </li>
+                <li class="menu__item menu__item--take-action">
+        <a href="/get-involved/take-action" class="menu__link" data-drupal-link-system-path="node/3646">Take Action</a>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu__item menu__item--search">
+        <a href="/search" class="menu__link" data-drupal-link-system-path="node/926">Search</a>
+              </li>
+        </ul>
+  
+
+
+  </div>
+
+      <div class="footer__navigation--secondary">
+        <div id="block-footer" class="footer__menu-utility block block-menu-block block-menu-blockfooter">
+  
+    
+                <ul class="menu menu--footer" data-depth="0">
+                <li class="menu__item menu__item--contact-us">
+        <a href="/contact" class="menu__link" data-drupal-link-system-path="node/316">Contact Us</a>
+              </li>
+                <li class="menu__item menu__item--news-and-press">
+        <a href="/news-and-press" class="menu__link" data-drupal-link-system-path="node/772">News and Press</a>
+              </li>
+        </ul>
+  
+
+
+  </div>
+
+        <div id="block-socialmedialinks-2" class="block-social-media-links block block-social-media-links-block">
+  
+      <h2 class="title--tiny">Connect with Us</h2>
+    
+      
+
+<ul class="social-media-links--platforms platforms inline horizontal">
+      <li>
+      <a class="social-media-link-icon--facebook" href="https://www.facebook.com/ChildrensAidNYC"  >
+        <span class='fab fa-facebook fa-lg'></span>
+      </a>
+
+          </li>
+      <li>
+      <a class="social-media-link-icon--twitter" href="https://www.twitter.com/childrensaidnyc"  >
+        <span class='fab fa-x-twitter fa-lg'></span>
+      </a>
+
+          </li>
+      <li>
+      <a class="social-media-link-icon--instagram" href="https://www.instagram.com/childrensaidnyc"  >
+        <span class='fab fa-instagram fa-lg'></span>
+      </a>
+
+          </li>
+      <li>
+      <a class="social-media-link-icon--youtube" href="https://www.youtube.com/user/childrensaidnyc"  >
+        <span class='fab fa-youtube fa-lg'></span>
+      </a>
+
+          </li>
+  </ul>
+
+  </div>
+
+      </div>
+    </div>
+    <div class="l--constrained">
+      <div class="footer__navigation--utility">
+        <p class="copyright">&copy; 2024 Children&#039;s Aid</p>
+          <div>
+    <nav role="navigation" aria-labelledby="block-footerutility-menu" id="block-footerutility">
+            
+  <h2 class="visually-hidden" id="block-footerutility-menu">Footer Utility</h2>
+  
+
+                  <ul class="menu menu--footer-utility" data-depth="0">
+                <li class="menu__item menu__item--privacy-policy">
+        <a href="/general/privacy-policy" class="menu__link" data-drupal-link-system-path="node/923">Privacy Policy</a>
+              </li>
+                <li class="menu__item menu__item--donor-privacy-policy">
+        <a href="/general/donor-privacy-policy" class="menu__link" data-drupal-link-system-path="node/1341">Donor Privacy Policy</a>
+              </li>
+                <li class="menu__item menu__item--terms-and-conditions">
+        <a href="/general/terms-use" class="menu__link" data-drupal-link-system-path="node/922">Terms and Conditions</a>
+              </li>
+                <li class="menu__item menu__item--non-discrimination-equal-opportunity">
+        <a href="/general/non-discriminationequal-opportunity" class="menu__link" data-drupal-link-system-path="node/1091">Non-Discrimination/Equal Opportunity</a>
+              </li>
+                <li class="menu__item menu__item--financial-reports-and-state-registrations">
+        <a href="/general/financial-reports-and-state-registrations" class="menu__link" data-drupal-link-system-path="node/1301">Financial Reports and State Registrations</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+  </div>
+
+      </div>
+    </div>
+  </div>
+</footer>
+
+  </div>
+
+    
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg"><symbol id="arrow-down" viewBox="0 0 12 12"><path fill="#004B87" fill-rule="evenodd" d="M12 2l-6 8-6-8z"/></symbol><symbol id="arrow-is-active" viewBox="0 0 26 14"><g fill="none" fill-rule="evenodd"><path fill="#D7D7D7" d="M13 0l13 14H0z"/><path fill="#FFF" d="M24.143 14L13 2 1.857 14h22.286z"/></g></symbol><symbol id="arrow-line-down" viewBox="0 0 35 60"><style>.st0{fill:#244879}</style><path class="st0" d="M17.5 37.5l-25-25-5 5 30 30 30-30-5-5z"/></symbol><symbol id="arrow-line-up" viewBox="0 0 35 60"><style>.st0{fill:#244879}</style><path class="st0" d="M17.5 22.5l25 25 5-5-30-30-30 30 5 5z"/></symbol><symbol id="arrow-next-thin" viewBox="0 0 28 50"><path fill="#084C85" fill-rule="evenodd" d="M1.647 0L26.23 23.447l.089-.086 1.643 1.567-.09.086.126.119-1.647 1.572-.126-.12L1.679 49.996.036 48.431l24.547-23.414L0 1.57z"/></symbol><symbol id="arrow-next" viewBox="0 0 35 60"><path fill="#244879" d="M25 30L0 55l5 5 30-30L5 0 0 5z"/></symbol><symbol id="arrow-prev-thin" viewBox="0 0 28 50"><path fill="#084C85" fill-rule="evenodd" d="M26.351 0L1.768 23.447l-.089-.086-1.643 1.567.09.086-.126.119 1.647 1.572.126-.12 24.546 23.411 1.643-1.565L3.415 25.017 27.998 1.57z"/></symbol><symbol id="arrow-prev" viewBox="0 0 35 60"><path fill="#244879" d="M10 30l25 25-5 5L0 30 30 0l5 5z"/></symbol><symbol id="arrow" viewBox="0 0 8 12"><path fill="inherit" fill-rule="evenodd" d="M0 0l8 6-8 6z"/></symbol><symbol id="close" viewBox="0 0 30 30"><path fill="#004B87" fill-rule="evenodd" d="M15 12.172L5.808 2.979 2.979 5.808 12.172 15l-9.193 9.192 2.829 2.829L15 17.828l9.192 9.193 2.829-2.829L17.828 15l9.193-9.192-2.829-2.829z"/></symbol><symbol id="facebook" viewBox="0 0 18 18"><path fill="#666" fill-rule="evenodd" d="M17.25 0H.75A.75.75 0 0 0 0 .75v16.5c0 .413.336.75.75.75h8.812v-6.75h-2.25V8.437h2.25v-2.25c0-2.325 1.473-3.469 3.546-3.469.994 0 1.848.075 2.096.108v2.428l-1.438.002c-1.128 0-1.39.535-1.39 1.321v1.86h2.812l-.563 2.813h-2.25L12.42 18h4.83c.414 0 .75-.337.75-.75V.75a.75.75 0 0 0-.75-.75"/></symbol><symbol id="file" viewBox="0 0 18 18"><g fill="#666" fill-rule="evenodd"><path d="M1 0h12v15H1V0zm1 1v13h10V1H2z"/><path d="M13 3h3v15H4v-3h1v2h10V4h-2V3zM4 4h6v1H4z"/><path d="M4 7h6v1H4zM4 10h6v1H4z"/></g></symbol><symbol id="focal-area--grow--sm" viewBox="0 0 180 180"><g fill="#8DC8E8" fill-rule="evenodd"><path d="M50.973 38.565c4.014-1.894 6.96-.756 6.96-.756l-.535 2.372s-2.567-.764-5.346.547c-3.35 1.58-4.767 5.53-3.01 9.26 1.838 3.895 5.756 5.243 9.152 3.64 2.993-1.412 3.789-4.343 3.789-4.343l-.796-1.686c-.157-.332-.437-.433-.77-.276l-1.02.48-.964-2.041 2.209-1.042c1.069-.504 1.733-.266 2.237.803l3.194 6.77-2.091.986-.492-1.046c-.17-.355-.313-.723-.313-.723l-.047.022s-.913 2.929-4.262 4.508c-4.466 2.107-9.83.339-12.295-4.887-2.275-4.822-.398-10.324 4.4-12.588m24.587 1.969c1.967-.344 2.91-1.815 2.553-3.86-.356-2.044-1.73-3.032-3.645-2.697l-3.416.597 1.143 6.547 3.365-.587zm-7.096-5.51l-1.683.295-.388-2.226 7.97-1.392c3.21-.56 5.815 1.066 6.398 4.405.533 3.053-1.2 4.903-2.442 5.414l.009.05s.506.153.92.693l2.964 3.99c.354.499.777.479 1.399.37l.335-.06.39 2.227-1.27.222c-1.423.248-1.972.157-2.775-.93L76.949 43.6c-.616-.773-.974-.843-1.984-.668l-2.382.416 1.269 7.273-2.587.452-2.801-16.047zM95.326 47.18c3.742.318 7.044-2.565 7.39-6.647.336-3.95-2.442-7.245-6.184-7.562-3.742-.318-7.01 2.462-7.345 6.414-.347 4.082 2.396 7.478 6.14 7.795m1.411-16.643c5.338.453 9.151 4.915 8.7 10.227-.462 5.443-4.983 9.33-10.32 8.876-5.34-.454-9.114-5.043-8.652-10.487.45-5.312 4.934-9.069 10.272-8.616m15.057 5.114c.057-.487-.171-.693-.608-.872l-.366-.15.852-2.09 1.387.564c1.216.496 1.725.987 1.54 2.274l-1.846 12.12c-.158 1.014-.403 1.964-.403 1.964l.048.02s.504-.816 1.158-1.656l8.506-10.997 2.19.892-1.844 13.712c-.143 1.048-.378 1.972-.378 1.972l.049.02s.464-.86 1.059-1.695l7.198-9.942c.768-1.05 1.45-1.054 2.666-.558l1.386.565-.851 2.09-.365-.148c-.44-.178-.745-.19-1.045.199l-9.695 13.008-2.822-1.15 1.5-12.036c.165-1.238.476-2.557.476-2.557l-.05-.02s-.747 1.14-1.51 2.107l-7.542 9.603-2.846-1.16 2.156-16.08zM87.914 86.24c-2.455-.598-6.288-.902-8.597-.902h-.005c-8.937 0-16.374 4.557-20.405 12.503-1.466 2.89-2.436 6.135-2.885 9.65-.437 3.415-.37 7.013.198 10.694 1.177 7.623 4.465 15.278 9.506 22.135 2.103 2.86 4.629 5.115 7.508 6.7 2.943 1.622 6.216 2.479 9.466 2.479 2.469 0 4.885-.471 7.207-1.403a19.234 19.234 0 0 0 7.207 1.403c3.25 0 6.523-.857 9.466-2.478 2.879-1.586 5.405-3.841 7.51-6.701 5.04-6.857 8.326-14.51 9.503-22.135.568-3.68.634-7.276.198-10.692-.45-3.516-1.42-6.761-2.886-9.65-4.032-7.947-11.47-12.505-20.408-12.505-2.463 0-6.463.346-9.092 1.029"/><path d="M102.647 66.845c.589 0 2.945.679 3.585.726 0 0-3.076 13.016-13.623 13.016-.973 0-3.178-1.948-4.301-2.17 0 0 .702-11.57 14.339-11.572M90.158 86.49c-.091-.681-.21-2.88-.366-3.68.656.073 2.738.112 3.371.112 5.101 0 9.464-2.392 12.286-6.737 1.857-2.86 2.438-5.662 2.535-6.195l1.276-5.51-6.289.254a24.008 24.008 0 0 0-1.678-.058l.637 2.168-.637-2.168c-3.171 0-5.989.647-8.377 1.92-2.138 1.143-4.595 4.189-5.891 6.209-.35.545-.646 1.09-.897 1.624-1.424-1.866-3.487-4.764-5.707-6.138-1.47-.908-1.676-1.43-2.579.053a3.163 3.163 0 0 0 1.028 4.33c5.244 3.246 7.13 9.582 7.808 13.69"/></g></symbol><symbol id="focal-area--grow--tiny" viewBox="0 0 30 30"><path fill="#008BD3" fill-rule="evenodd" d="M15.926 7.993a3.017 3.017 0 0 1-.35-.2c-.088-.056-.174-.11-.26-.159.145-.65.73-2.133 3.067-2.137.054.006.209.041.329.069-.293.801-1.092 2.408-2.786 2.427m7.829 7.086a7.763 7.763 0 0 0-.76-2.539c-1.078-2.126-3.066-3.346-5.456-3.346h-.02c.781-.298 1.447-.84 1.942-1.596.487-.743.653-1.46.694-1.679L20.603 4l-2.125.085-.088-.005-.932-.009.009.029a4.595 4.595 0 0 0-1.704.497c-.66.349-1.284 1.179-1.529 1.53-.32-.402-.709-.836-1.136-1.099-.052-.032-.097-.061-.137-.088-.169-.111-.36-.238-.618-.18-.24.052-.382.236-.5.428a1.214 1.214 0 0 0-.147.924c.076.317.271.586.55.757.926.568 1.379 1.61 1.6 2.437a12.248 12.248 0 0 0-1.557-.112c-2.39 0-4.378 1.22-5.455 3.345a7.766 7.766 0 0 0-.76 2.54 9.949 9.949 0 0 0 .05 2.776c.303 1.962 1.146 3.928 2.438 5.686a6.213 6.213 0 0 0 2.005 1.789c.795.438 1.681.67 2.561.67.61 0 1.21-.107 1.787-.317.577.21 1.177.317 1.786.317.88 0 1.766-.232 2.561-.67a6.213 6.213 0 0 0 2.005-1.789c1.292-1.758 2.135-3.724 2.437-5.686a9.955 9.955 0 0 0 .05-2.776"/></symbol><symbol id="focal-area--grow"><g class="wrapper"><g fill="#1E8ECC" class="state--default"><path d="M103.827 83.86c-3.245 0-8.514.456-11.977 1.355l-4.598-.166c-3.234-.789-8.283-1.189-11.324-1.189h-.007c-11.771 0-21.568 6.002-26.878 16.468-1.93 3.807-3.21 8.082-3.8 12.713-.575 4.498-.487 9.237.26 14.086 1.552 10.042 5.88 20.124 12.522 29.156 2.77 3.768 6.098 6.738 9.89 8.827 3.877 2.135 8.188 3.265 12.468 3.265 3.253 0 6.435-.62 9.494-1.848a25.35 25.35 0 0 0 9.493 1.848c4.28 0 8.593-1.13 12.469-3.265 3.792-2.089 7.12-5.059 9.892-8.827 6.64-9.032 10.969-19.113 12.518-29.156.748-4.847.836-9.585.26-14.084-.591-4.63-1.87-8.906-3.801-12.71-5.31-10.469-15.108-16.473-26.881-16.473m0 3c10.602 0 19.425 5.405 24.207 14.83 1.774 3.498 2.952 7.445 3.5 11.733.54 4.221.455 8.678-.25 13.246-1.476 9.566-5.615 19.192-11.97 27.837-2.512 3.416-5.514 6.1-8.922 7.976-3.435 1.893-7.246 2.893-11.022 2.893-2.858 0-5.677-.55-8.376-1.633a2.998 2.998 0 0 0-2.235 0 22.398 22.398 0 0 1-8.376 1.633c-3.774 0-7.585-1-11.02-2.893-3.408-1.877-6.41-4.56-8.921-7.976-6.356-8.645-10.496-18.27-11.973-27.837-.705-4.57-.79-9.028-.25-13.248.547-4.287 1.725-8.235 3.5-11.735 4.78-9.422 13.6-14.826 24.209-14.826 2.994 0 7.782.413 10.613 1.104.197.047.399.076.602.083l4.599.167.108.001c.255 0 .508-.032.755-.096 3.148-.818 8.13-1.259 11.222-1.259"/><path d="M106.659 59.499c.776 0 3.88.894 4.722.956 0 0-4.051 17.145-17.943 17.145-1.283 0-4.187-2.565-5.667-2.858 0 0 .926-15.24 18.888-15.243M90.208 85.378c-.12-.898-.276-3.793-.482-4.848.865.096 3.607.147 4.44.147 6.72 0 12.468-3.151 16.184-8.874 2.446-3.766 3.21-7.457 3.34-8.159l1.679-7.259-8.282.335a31.476 31.476 0 0 0-2.212-.077l.84 2.856-.84-2.856c-4.176 0-7.888.852-11.034 2.53-2.815 1.504-6.053 5.518-7.76 8.178a18.632 18.632 0 0 0-1.18 2.139c-1.878-2.458-4.595-6.275-7.518-8.085-1.937-1.196-2.208-1.883-3.397.07-1.19 1.952-.584 4.505 1.353 5.704 6.908 4.275 9.392 12.621 10.286 18.034"/></g><g class="state--hover"><g fill="#333" class="title"><path class="letter" d="M38.592 22.248c5.288-2.494 9.169-.997 9.169-.997l-.706 3.125s-3.381-1.006-7.042.721c-4.412 2.082-6.28 7.285-3.963 12.197 2.42 5.133 7.58 6.907 12.054 4.796 3.943-1.86 4.99-5.72 4.99-5.72l-1.048-2.222c-.206-.438-.575-.57-1.013-.363l-1.344.634-1.27-2.69 2.909-1.373c1.409-.665 2.284-.35 2.948 1.058l4.207 8.917-2.754 1.3-.65-1.379c-.221-.468-.412-.953-.412-.953l-.061.03s-1.203 3.857-5.615 5.938c-5.882 2.774-12.948.446-16.195-6.437-2.996-6.351-.524-13.6 5.796-16.581M70.978 24.842c2.592-.453 3.834-2.391 3.364-5.083-.47-2.694-2.279-3.995-4.802-3.554l-4.5.785 1.505 8.625 4.433-.773zm-9.346-7.256l-2.217.387-.512-2.933 10.5-1.833c4.228-.738 7.658 1.404 8.426 5.802.703 4.022-1.578 6.458-3.216 7.13l.011.069s.667.2 1.213.912l3.904 5.256c.467.657 1.024.63 1.842.487l.442-.078.513 2.932-1.67.292c-1.876.327-2.6.208-3.658-1.224l-4.402-5.905c-.81-1.018-1.284-1.112-2.614-.88l-3.137.548 1.672 9.58-3.408.595-3.69-21.137zM97.016 33.597c4.929.418 9.278-3.378 9.734-8.756.443-5.204-3.216-9.542-8.146-9.961-4.93-.418-9.233 3.243-9.675 8.448-.456 5.378 3.157 9.85 8.087 10.269m1.86-21.923c7.032.597 12.054 6.474 11.459 13.472-.608 7.17-6.563 12.288-13.594 11.69-7.033-.596-12.004-6.642-11.396-13.812.594-6.997 6.499-11.947 13.53-11.35M118.709 18.41c.075-.642-.226-.914-.802-1.148l-.481-.197 1.123-2.755 1.826.744c1.602.653 2.272 1.3 2.03 2.994l-2.433 15.967c-.208 1.335-.531 2.585-.531 2.585l.064.026s.663-1.074 1.524-2.18l11.205-14.485 2.884 1.174-2.428 18.062a26.055 26.055 0 0 1-.499 2.598l.065.027s.611-1.134 1.395-2.234l9.482-13.096c1.011-1.38 1.91-1.388 3.512-.735l1.826.744-1.122 2.755-.481-.196c-.577-.235-.981-.25-1.377.261l-12.77 17.134-3.716-1.513 1.976-15.855c.216-1.63.625-3.368.625-3.368l-.063-.026s-.986 1.503-1.99 2.775l-9.935 12.65-3.749-1.527 2.84-21.18z"/></g><path d="M87.251 85.05c-3.233-.79-8.283-1.19-11.324-1.19h-.007c-11.77 0-21.567 6.002-26.877 16.468-1.93 3.807-3.209 8.082-3.8 12.713-.576 4.498-.488 9.237.26 14.086 1.551 10.042 5.88 20.124 12.521 29.156 2.771 3.768 6.1 6.738 9.891 8.827 3.876 2.135 8.188 3.265 12.467 3.265 3.253 0 6.435-.62 9.494-1.848a25.355 25.355 0 0 0 9.494 1.848c4.28 0 8.592-1.13 12.47-3.265 3.791-2.089 7.12-5.059 9.89-8.827 6.64-9.032 10.97-19.113 12.52-29.156.746-4.847.834-9.585.26-14.084-.592-4.63-1.872-8.906-3.802-12.71-5.31-10.469-15.109-16.473-26.882-16.473-3.244 0-8.513.456-11.976 1.356" fill="#C83737"/><path d="M106.659 59.499c.776 0 3.88.894 4.722.956 0 0-4.051 17.145-17.943 17.145-1.283 0-4.187-2.565-5.667-2.858 0 0 .926-15.24 18.888-15.243M90.208 85.378c-.12-.898-.276-3.793-.482-4.848.865.096 3.607.147 4.44.147 6.72 0 12.468-3.151 16.184-8.874 2.446-3.766 3.21-7.457 3.34-8.159l1.679-7.259-8.282.335a31.476 31.476 0 0 0-2.212-.077l.84 2.856-.84-2.856c-4.176 0-7.888.852-11.034 2.53-2.815 1.504-6.053 5.518-7.76 8.178a18.632 18.632 0 0 0-1.18 2.139c-1.878-2.458-4.595-6.275-7.518-8.085-1.937-1.196-2.208-1.883-3.397.07-1.19 1.952-.584 4.505 1.353 5.704 6.908 4.275 9.392 12.621 10.286 18.034" fill="#333"/></g></g></symbol><symbol id="focal-area--lead--sm" viewBox="0 0 180 180"><g fill="#8DC8E8" fill-rule="evenodd"><path d="M79.087 146.725v-6.28c0-4.331 2.192-8.342 5.864-10.727l1.573-1.02.762 1.713c.805 1.809 2.74 3.073 4.708 3.073h.215c1.932 0 3.767-1.252 4.565-3.114l.74-1.732 1.59 1.01c3.724 2.368 5.96 6.404 5.98 10.798l.032 6.324-13.03 8.117-13-8.162z"/><path d="M69.098 69.817c-10.233.245-18.251 8.35-18.251 18.452v4.328c0 1.867 1.535 3.386 3.422 3.386.684 0 1.345-.2 1.909-.577 0 0 .11-.083.135-.098.898-.693 1.378-1.664 1.378-2.71V88.27c0-2.084.564-4.13 1.632-5.918a.97.97 0 0 1 .833-.467h9.17l.17-.572c.363-1.218.598-2.478.699-3.746a.937.937 0 0 1 .356-.66.994.994 0 0 1 .748-.199c5.764.841 10.11 5.812 10.11 11.56v4.327c0 1.047.48 2.02 1.317 2.668.083.057.162.12.162.12l.035.023a3.45 3.45 0 0 0 1.908.574c1.887 0 3.423-1.518 3.423-3.385V88.27c0-9.948-7.886-18.049-17.954-18.442a21.15 21.15 0 0 0-1.202-.01zm-8.6 14.417a9.774 9.774 0 0 0-.88 4.035v4.327a5.163 5.163 0 0 1-1.103 3.202l-.388.496.39.493c2.666 3.373 6.688 5.307 11.033 5.307 4.346 0 8.368-1.934 11.034-5.307l.39-.493-.387-.496a5.158 5.158 0 0 1-1.106-3.202V88.27c0-4.109-2.634-7.815-6.555-9.222l-.892-.319-.166.932a20.135 20.135 0 0 1-.958 3.49.966.966 0 0 1-.906.617H60.71l-.213.467zm11.06 58.851a.979.979 0 0 1-.53-.156l-16.011-10.246a.933.933 0 0 1-.436-.787v-14.25c0-5.73 3.213-10.958 8.383-13.64l1.34-.694.31 1.161c.02.074.03.152.03.233 0 2.89 2.31 5.624 4.755 5.624h.263c2.413 0 4.508-3.269 4.637-5.975l.05-1.062-1.034.244a16.4 16.4 0 0 1-7.734-.048l-1.317-.328.002.008-1.342-.603a15.903 15.903 0 0 1-6.011-4.727l-.35-.45-.541.184a5.395 5.395 0 0 1-1.753.291c-2.95 0-5.351-2.363-5.351-5.267v-4.326a19.987 19.987 0 0 1 6.017-14.358 20.773 20.773 0 0 1 15.44-5.963c5.339.207 10.326 2.413 14.039 6.213 3.72 3.808 5.769 8.818 5.769 14.106v4.327c0 2.905-2.4 5.268-5.351 5.268a5.4 5.4 0 0 1-1.753-.29l-.541-.186-.35.451a15.738 15.738 0 0 1-5.371 4.424l-1.48.747 1.506.694c.542.251 1.074.536 1.58.85.22.134.373.341.43.585a.906.906 0 0 1-.12.702.963.963 0 0 1-.822.45.977.977 0 0 1-.512-.146c-.107-.066-.22-.134-.335-.199l-.89-.507-.277.985c-.784 2.786-3.07 5.785-6.235 5.785h-.263c-2.66 0-5.23-2.032-6.244-4.94l-.362-1.033-.875.656c-3.436 2.576-5.407 6.495-5.407 10.754v13.742l15.577 9.971a.933.933 0 0 1 .415.593.913.913 0 0 1-.134.7.968.968 0 0 1-.811.433zm33.033-69.962c-2.332 1.83-3.97 4.633-3.985 4.661a15.179 15.179 0 0 0-1.887 7.801l.019.706.702.07.199.026c.138.014.278.022.42.022 2.129 0 3.86-1.713 3.86-3.818v-1.056c0-.284.13-.55.357-.73a.985.985 0 0 1 .816-.19c1.51.325 3.082.49 4.67.49 4.055 0 7.904-1.058 11.135-3.059a.986.986 0 0 1 .987-.027.936.936 0 0 1 .494.822v.97c0 2.104 1.734 3.816 3.863 3.816a3.885 3.885 0 0 0 2.889-1.294l.28-.312-.098-.407a15.25 15.25 0 0 0-3.58-6.744c-.997-1.107-2.595-2.584-4.696-3.505l-.122-.053a15.527 15.527 0 0 0-6.697-1.499c-3.454 0-6.72 1.096-9.45 3.17l-.03.02-.031.027-.111.085-.004.008zm1.19 10.34c-.342 2.193-1.97 4.004-4.145 4.612l-.89.25.373.844c2.222 5.038 7.263 8.293 12.842 8.293 6.602 0 12.369-4.635 13.713-11.02l.226-1.07-1.087.107c-.19.018-.381.028-.572.028-2.561 0-4.847-1.69-5.563-4.11l-.262-.887-.84.386c-3.021 1.387-6.323 2.09-9.812 2.09-1.032 0-2.072-.065-3.091-.194l-.771-.098-.12.77zm3.114 16.225c0 2.825 2.15 5.212 4.697 5.212h.264c2.349 0 4.395-2.292 4.56-5.109l.064-1.057-1.034.23a16.237 16.237 0 0 1-7.552-.138l-1.06-.276.06 1.138zm2.875 43.94a.97.97 0 0 1-.813-.435.93.93 0 0 1 .283-1.294l16.423-10.51v-18.523c0-4.608-2.488-9.007-6.493-11.482l-.873-.54-.31.98c-.926 2.917-3.447 4.956-6.131 4.956h-.264c-2.715 0-5.208-1.866-6.201-4.643l-.35-.976-.855.586a13.74 13.74 0 0 0-2.195 1.868.967.967 0 0 1-.707.3.975.975 0 0 1-.665-.259.926.926 0 0 1-.041-1.323 15.799 15.799 0 0 1 4.303-3.192l1.44-.727-1.45-.707c-3.802-1.858-6.74-5.203-8.056-9.179l-.13-.388-.39-.123a5.803 5.803 0 0 1-.908-.375.937.937 0 0 1-.51-.734 17.026 17.026 0 0 1 2.024-10.007c.215-.365 1.978-3.32 4.635-5.368l.024-.018-.005.006c3.075-2.347 6.763-3.588 10.662-3.588 2.636 0 5.17.566 7.53 1.681l.079.035c2.43 1.064 4.25 2.751 5.352 3.978l.07.08a17.04 17.04 0 0 1 4.119 8.31.92.92 0 0 1-.115.635 5.73 5.73 0 0 1-1.121 1.367l-.245.22-.02.328c-.334 5.583-3.718 10.616-8.831 13.134l-1.45.713 1.445.721c5.282 2.64 8.562 7.901 8.562 13.731v19.03a.933.933 0 0 1-.434.785l-16.861 10.791a.977.977 0 0 1-.527.155zm-19.684-38.433a10.836 10.836 0 0 0-8.27 3.811l-.81.95 1.2.34c2.47.697 5.122 1.051 7.88 1.051 2.76 0 5.41-.354 7.88-1.05l1.2-.34-.808-.95a10.838 10.838 0 0 0-8.272-3.812zm-10.204 7.165a10.534 10.534 0 0 0-.596 3.498c0 5.88 4.844 10.665 10.8 10.665s10.802-4.785 10.802-10.665c0-1.196-.2-2.373-.596-3.498l-.257-.732-.74.234c-2.824.894-6.008 1.367-9.208 1.367-3.201 0-6.385-.473-9.208-1.367l-.74-.234-.257.732zm6.153 16.553c.262 2.087 2.258 3.49 3.959 3.49h.215c1.607 0 3.519-1.32 3.804-3.455l.154-1.152-1.132.267a12.976 12.976 0 0 1-6.015-.027l-1.128-.275.143 1.152zm-2.647 1.476c-3.443 2.237-5.5 5.995-5.5 10.055v5.838l12.2 7.66 12.226-7.616-.028-5.877c-.02-4.119-2.118-7.904-5.612-10.125l-.794-.506-.371.866c-.922 2.153-3.052 3.6-5.3 3.6h-.215c-2.273 0-4.51-1.459-5.438-3.548l-.382-.857-.786.51zM92.086 156a.963.963 0 0 1-.52-.149l-13.165-8.265a.934.934 0 0 1-.442-.792v-6.35c0-5.222 2.93-9.959 7.649-12.363l1.309-.668-1.271-.738c-3.88-2.252-6.29-6.397-6.29-10.817 0-1.999.49-3.988 1.418-5.75a12.785 12.785 0 0 1 11.312-6.795c4.677 0 8.969 2.525 11.203 6.59a12.47 12.47 0 0 1 1.529 5.955c0 4.42-2.411 8.566-6.292 10.82l-1.271.736 1.309.668c4.693 2.397 7.625 7.132 7.65 12.358l.032 6.393a.93.93 0 0 1-.445.796l-13.195 8.224a.982.982 0 0 1-.52.147zM53.618 37.086c-.155-.386-.432-.483-.792-.34l-1.106.443-.886-2.212 2.6-1.04c1.157-.462 1.84-.17 2.303.988l5.494 13.736c.146.36.434.484.793.34l5.017-2.007c.36-.143.482-.432.34-.792l-.464-1.158 2.341-.936.916 2.289c.463 1.158.17 1.842-.988 2.306l-7.768 3.107c-1.157.463-1.843.17-2.306-.988l-5.494-13.736zm18.411-6.86l-1.777.293-.389-2.35 11.345-1.874c1.23-.204 1.834.23 2.04 1.46l.4 2.432-2.487.411-.203-1.23c-.069-.41-.32-.565-.702-.502l-5.494.908.997 6.041 6.752-1.115.39 2.351-6.753 1.115.926 5.604c.063.383.318.565.701.502l5.631-.93c.383-.064.564-.318.502-.7l-.203-1.232 2.514-.414.402 2.432c.203 1.231-.23 1.835-1.46 2.04l-8.583 1.418c-1.23.202-1.836-.232-2.039-1.462l-2.51-15.198zm29.754 7.647l-1.729-6.084c-.29-1.047-.59-2.79-.59-2.79l-.055-.002s-.502 1.687-.93 2.685l-2.527 5.798 5.831.393zm-12.147 4.763l.386.026c.498.033.754-.06.953-.546L98.195 26l2.901.195 4.997 16.937c.131.509.401.637.871.67l.414.028-.159 2.376-1.549-.104c-1.382-.093-1.8-.455-2.158-1.755l-1.195-4.106-7.185-.483-1.734 3.908c-.556 1.24-1.02 1.542-2.402 1.449l-1.52-.102.16-2.377zm26.236 3.924l2.39.886c4.077 1.51 7.655.062 9.332-4.457 1.665-4.492-.14-7.91-4.192-9.41l-2.96-1.099-4.929 13.297c-.135.364-.004.648.36.783zm1.974-15.042l-1.69-.626.83-2.232 7.425 2.753c5.584 2.068 8.03 6.787 5.883 12.576-2.156 5.818-7.096 7.827-12.679 5.758l-4.076-1.513c-1.17-.433-1.48-1.11-1.046-2.278l5.353-14.438z"/></g></symbol><symbol id="focal-area--lead--tiny" viewBox="0 0 30 30"><path fill="#008BD3" fill-rule="evenodd" d="M16.38 14.67c-.089.667-.688 1.118-1.229 1.118h-.088c-.574 0-1.21-.474-1.293-1.13a5.633 5.633 0 0 0 2.61.011zm-5.367-5.262c0-.459.08-.899.225-1.31 1.19.374 2.512.568 3.863.568 1.35 0 2.67-.194 3.86-.567.148.41.227.85.227 1.309 0 2.204-1.834 3.997-4.087 3.997-2.254 0-4.088-1.793-4.088-3.997zm4.088-3.998c1.255 0 2.38.557 3.13 1.431-.972.272-2.038.415-3.13.415-1.093 0-2.159-.143-3.131-.415a4.116 4.116 0 0 1 3.13-1.43zm2.795 8.663c1.635-.94 2.735-2.68 2.735-4.665a5.285 5.285 0 0 0-.665-2.57A5.555 5.555 0 0 0 15.1 4a5.552 5.552 0 0 0-4.913 2.926 5.285 5.285 0 0 0-.618 2.482c0 1.985 1.1 3.724 2.734 4.664C10.281 15.095 9 17.125 9 19.372v2.573c0 .24.126.465.334.595l5.38 3.35a.727.727 0 0 0 .772 0l5.392-3.331a.702.702 0 0 0 .336-.6l-.013-2.59c-.01-2.253-1.29-4.276-3.305-5.296z"/></symbol><symbol id="focal-area--lead"><g class="wrapper"><path d="M62.705 66.355c-12.78.305-22.796 10.43-22.796 23.047v5.407c0 2.33 1.918 4.228 4.275 4.228.854 0 1.678-.25 2.384-.722l.168-.121c1.122-.866 1.721-2.08 1.721-3.386v-5.405c0-2.602.705-5.158 2.038-7.39.215-.36.613-.584 1.041-.584h11.455l.213-.715c.451-1.52.745-3.095.871-4.678.026-.322.188-.622.445-.825a1.237 1.237 0 0 1 .935-.248c7.198 1.052 12.628 7.259 12.628 14.44v5.403c0 1.309.6 2.524 1.644 3.334.104.07.203.148.203.148l.044.03a4.297 4.297 0 0 0 2.383.716c2.357 0 4.275-1.897 4.275-4.228v-5.403c0-12.427-9.85-22.545-22.425-23.036a25.477 25.477 0 0 0-1.502-.012zm-10.74 18.007a12.209 12.209 0 0 0-1.099 5.04v5.405c0 1.46-.477 2.842-1.38 4l-.483.618.487.617c3.33 4.212 8.353 6.628 13.78 6.628 5.428 0 10.452-2.415 13.782-6.628l.487-.618-.483-.619a6.432 6.432 0 0 1-1.382-3.999v-5.403c0-5.134-3.29-9.763-8.188-11.52l-1.114-.398-.208 1.163a25.056 25.056 0 0 1-1.196 4.359 1.207 1.207 0 0 1-1.13.771H52.23l-.266.585zm13.812 73.507c-.233 0-.46-.068-.66-.195l-20-12.798a1.163 1.163 0 0 1-.544-.982v-17.8c0-7.157 4.013-13.685 10.471-17.035l1.674-.869.387 1.452c.025.091.038.19.038.29 0 3.61 2.885 7.024 5.938 7.024h.33c3.012 0 5.63-4.082 5.79-7.462l.063-1.326-1.292.305a20.555 20.555 0 0 1-9.659-.06l-1.646-.41.003.01-1.676-.754a19.852 19.852 0 0 1-7.508-5.903l-.438-.564-.676.232a6.722 6.722 0 0 1-2.188.363c-3.686 0-6.684-2.951-6.684-6.578v-5.405c0-6.8 2.67-13.168 7.515-17.933a25.946 25.946 0 0 1 19.286-7.448c6.67.258 12.896 3.014 17.535 7.76 4.646 4.757 7.205 11.014 7.205 17.62v5.404c0 3.628-2.998 6.58-6.683 6.58-.75 0-1.486-.122-2.189-.363l-.676-.231-.438.563a19.673 19.673 0 0 1-6.708 5.525l-1.847.933 1.88.867c.676.313 1.341.67 1.973 1.06.276.169.465.427.537.733a1.14 1.14 0 0 1-.149.877c-.22.35-.604.56-1.027.56a1.22 1.22 0 0 1-.64-.181 12.16 12.16 0 0 0-.419-.25l-1.11-.632-.348 1.23c-.979 3.48-3.835 7.226-7.787 7.226h-.329c-3.323 0-6.53-2.537-7.8-6.171l-.45-1.29-1.094.82c-4.292 3.218-6.754 8.113-6.754 13.432v17.165l19.457 12.453c.27.172.452.435.518.74.065.304.006.615-.166.876a1.21 1.21 0 0 1-1.015.54zm41.261-87.386c-2.913 2.287-4.959 5.788-4.979 5.822a18.969 18.969 0 0 0-2.356 9.744l.023.881.877.088.25.033c.171.017.347.028.524.028 2.66 0 4.822-2.14 4.822-4.77V80.99c0-.354.162-.686.444-.91a1.228 1.228 0 0 1 1.02-.239c1.886.406 3.85.612 5.835.612 5.062 0 9.871-1.32 13.906-3.82a1.233 1.233 0 0 1 1.234-.034c.38.207.617.6.617 1.026v1.21c0 2.63 2.164 4.77 4.823 4.77a4.851 4.851 0 0 0 3.61-1.618l.348-.389-.12-.509a19.033 19.033 0 0 0-4.473-8.423c-1.246-1.383-3.24-3.229-5.865-4.378l-.152-.067a19.403 19.403 0 0 0-8.366-1.872c-4.313 0-8.393 1.37-11.8 3.96l-.039.024-.039.035-.139.106-.005.01zm1.486 12.915c-.427 2.74-2.46 5.002-5.177 5.761l-1.112.311.466 1.055c2.775 6.293 9.071 10.36 16.04 10.36 8.246 0 15.45-5.79 17.128-13.767l.281-1.335-1.357.133a7.393 7.393 0 0 1-.715.036c-3.197 0-6.054-2.11-6.947-5.135l-.327-1.107-1.049.482c-3.774 1.732-7.898 2.611-12.256 2.611-1.29 0-2.589-.082-3.86-.243l-.964-.122-.15.96zm3.89 20.266c0 3.528 2.686 6.51 5.866 6.51h.33c2.934 0 5.49-2.863 5.697-6.38l.078-1.32-1.29.284a20.259 20.259 0 0 1-9.434-.172l-1.322-.343.074 1.421zm3.59 54.881a1.21 1.21 0 0 1-1.015-.542 1.144 1.144 0 0 1-.166-.873 1.16 1.16 0 0 1 .52-.742l20.512-13.129v-23.134c0-5.756-3.107-11.252-8.109-14.343l-1.09-.673-.388 1.222c-1.157 3.645-4.305 6.191-7.659 6.191h-.329c-3.39 0-6.505-2.33-7.745-5.798l-.436-1.22-1.07.731a17.256 17.256 0 0 0-2.742 2.335 1.205 1.205 0 0 1-.883.374c-.309 0-.604-.115-.829-.323a1.16 1.16 0 0 1-.374-.817 1.16 1.16 0 0 1 .322-.836 19.727 19.727 0 0 1 5.375-3.988l1.798-.907-1.809-.883c-4.75-2.32-8.42-6.5-10.065-11.464l-.16-.485-.488-.155a7.075 7.075 0 0 1-1.135-.467 1.174 1.174 0 0 1-.636-.917 21.258 21.258 0 0 1 2.529-12.5c.266-.455 2.47-4.146 5.79-6.703l.028-.023-.007.007c3.842-2.931 8.447-4.481 13.317-4.481 3.293 0 6.458.707 9.408 2.1l.096.043c3.036 1.33 5.311 3.436 6.685 4.968l.09.099a21.289 21.289 0 0 1 5.141 10.382c.05.27 0 .553-.14.793a7.176 7.176 0 0 1-1.402 1.707l-.306.274-.025.41c-.418 6.973-4.644 13.26-11.03 16.405l-1.809.89 1.802.902c6.597 3.296 10.695 9.868 10.695 17.15v23.768c0 .398-.204.765-.543.983l-21.059 13.477a1.224 1.224 0 0 1-.659.193zM91.42 110.542a13.537 13.537 0 0 0-10.33 4.761l-1.01 1.186 1.498.424c3.085.872 6.397 1.314 9.843 1.314 3.445 0 6.756-.442 9.841-1.314l1.5-.424-1.01-1.186a13.532 13.532 0 0 0-10.332-4.76zm-12.746 8.95a13.138 13.138 0 0 0-.745 4.368c0 7.346 6.051 13.322 13.491 13.322 7.44 0 13.491-5.976 13.491-13.322 0-1.492-.25-2.962-.744-4.368l-.32-.914-.925.293c-3.528 1.116-7.504 1.707-11.5 1.707-4 0-7.977-.59-11.503-1.707l-.924-.293-.32.914zm7.686 20.675c.326 2.607 2.82 4.358 4.945 4.358h.268c2.007 0 4.395-1.649 4.751-4.314l.193-1.44-1.414.335a16.071 16.071 0 0 1-3.683.424c-1.295 0-2.584-.154-3.83-.458l-1.409-.342.18 1.438zm-3.307 1.844c-4.3 2.793-6.869 7.488-6.869 12.56v7.29l15.24 9.568 15.268-9.512-.036-7.34c-.024-5.146-2.644-9.874-7.008-12.648l-.992-.63-.463 1.08c-1.152 2.69-3.812 4.496-6.62 4.496h-.268c-2.84 0-5.634-1.822-6.793-4.43l-.477-1.07-.982.636zm8.367 31.99a1.21 1.21 0 0 1-.65-.187L74.325 163.49a1.167 1.167 0 0 1-.552-.989v-7.93c0-6.523 3.661-12.44 9.553-15.443l1.637-.834-1.589-.922c-4.846-2.812-7.856-7.99-7.856-13.512 0-2.496.613-4.98 1.771-7.18a15.968 15.968 0 0 1 14.13-8.487c5.841 0 11.202 3.153 13.993 8.23a15.573 15.573 0 0 1 1.908 7.437c0 5.522-3.01 10.7-7.858 13.514l-1.587.921 1.634.834c5.862 2.995 9.524 8.91 9.556 15.435l.04 7.986a1.16 1.16 0 0 1-.556.994l-16.482 10.272c-.192.12-.417.184-.648.184z" fill="#1E8ECC" class="state--default"/><g class="state--hover"><path d="M75.183 162.415v-7.844c0-5.41 2.738-10.42 7.324-13.398l1.965-1.275.952 2.14c1.005 2.26 3.422 3.838 5.88 3.838h.269c2.413 0 4.704-1.563 5.7-3.89l.927-2.163 1.985 1.263c4.65 2.957 7.444 7.999 7.47 13.486l.04 7.9L91.42 172.61l-16.237-10.195z" fill="#FEC659"/><path d="M62.705 66.355c-12.78.305-22.796 10.43-22.796 23.047v5.407c0 2.33 1.918 4.228 4.275 4.228.854 0 1.678-.25 2.384-.722l.168-.121c1.122-.866 1.721-2.08 1.721-3.386v-5.405c0-2.602.705-5.158 2.038-7.39.215-.36.613-.584 1.041-.584h11.455l.213-.715c.451-1.52.745-3.095.871-4.678.026-.322.188-.622.445-.825a1.237 1.237 0 0 1 .935-.248c7.198 1.052 12.628 7.259 12.628 14.44v5.403c0 1.309.6 2.524 1.644 3.334.104.07.203.148.203.148l.044.03a4.297 4.297 0 0 0 2.383.716c2.357 0 4.275-1.897 4.275-4.228v-5.403c0-12.427-9.85-22.545-22.425-23.036a25.477 25.477 0 0 0-1.502-.012zm-10.74 18.007a12.209 12.209 0 0 0-1.099 5.04v5.405c0 1.46-.477 2.842-1.38 4l-.483.618.487.617c3.33 4.212 8.353 6.628 13.78 6.628 5.428 0 10.452-2.415 13.782-6.628l.487-.618-.483-.619a6.432 6.432 0 0 1-1.382-3.999v-5.403c0-5.134-3.29-9.763-8.188-11.52l-1.114-.398-.208 1.163a25.056 25.056 0 0 1-1.196 4.359 1.207 1.207 0 0 1-1.13.771H52.23l-.266.585zm13.812 73.507c-.233 0-.46-.068-.66-.195l-20-12.798a1.163 1.163 0 0 1-.544-.982v-17.8c0-7.157 4.013-13.685 10.471-17.035l1.674-.869.387 1.452c.025.091.038.19.038.29 0 3.61 2.885 7.024 5.938 7.024h.33c3.012 0 5.63-4.082 5.79-7.462l.063-1.326-1.292.305a20.555 20.555 0 0 1-9.659-.06l-1.646-.41.003.01-1.676-.754a19.852 19.852 0 0 1-7.508-5.903l-.438-.564-.676.232a6.722 6.722 0 0 1-2.188.363c-3.686 0-6.684-2.951-6.684-6.578v-5.405c0-6.8 2.67-13.168 7.515-17.933a25.946 25.946 0 0 1 19.286-7.448c6.67.258 12.896 3.014 17.535 7.76 4.646 4.757 7.205 11.014 7.205 17.62v5.404c0 3.628-2.998 6.58-6.683 6.58-.75 0-1.486-.122-2.189-.363l-.676-.231-.438.563a19.673 19.673 0 0 1-6.708 5.525l-1.847.933 1.88.867c.676.313 1.341.67 1.973 1.06.276.169.465.427.537.733a1.14 1.14 0 0 1-.149.877c-.22.35-.604.56-1.027.56a1.22 1.22 0 0 1-.64-.181 12.16 12.16 0 0 0-.419-.25l-1.11-.632-.348 1.23c-.979 3.48-3.835 7.226-7.787 7.226h-.329c-3.323 0-6.53-2.537-7.8-6.171l-.45-1.29-1.094.82c-4.292 3.218-6.754 8.113-6.754 13.432v17.165l19.457 12.453c.27.172.452.435.518.74.065.304.006.615-.166.876a1.21 1.21 0 0 1-1.015.54zm41.261-87.386c-2.913 2.287-4.959 5.788-4.979 5.822a18.969 18.969 0 0 0-2.356 9.744l.023.881.877.088.25.033c.171.017.347.028.524.028 2.66 0 4.822-2.14 4.822-4.77V80.99c0-.354.162-.686.444-.91a1.228 1.228 0 0 1 1.02-.239c1.886.406 3.85.612 5.835.612 5.062 0 9.871-1.32 13.906-3.82a1.233 1.233 0 0 1 1.234-.034c.38.207.617.6.617 1.026v1.21c0 2.63 2.164 4.77 4.823 4.77a4.851 4.851 0 0 0 3.61-1.618l.348-.389-.12-.509a19.033 19.033 0 0 0-4.473-8.423c-1.246-1.383-3.24-3.229-5.865-4.378l-.152-.067a19.403 19.403 0 0 0-8.366-1.872c-4.313 0-8.393 1.37-11.8 3.96l-.039.024-.039.035-.139.106-.005.01zm1.486 12.915c-.427 2.74-2.46 5.002-5.177 5.761l-1.112.311.466 1.055c2.775 6.293 9.071 10.36 16.04 10.36 8.246 0 15.45-5.79 17.128-13.767l.281-1.335-1.357.133a7.393 7.393 0 0 1-.715.036c-3.197 0-6.054-2.11-6.947-5.135l-.327-1.107-1.049.482c-3.774 1.732-7.898 2.611-12.256 2.611-1.29 0-2.589-.082-3.86-.243l-.964-.122-.15.96zm3.89 20.266c0 3.528 2.686 6.51 5.866 6.51h.33c2.934 0 5.49-2.863 5.697-6.38l.078-1.32-1.29.284a20.259 20.259 0 0 1-9.434-.172l-1.322-.343.074 1.421zm3.59 54.881a1.21 1.21 0 0 1-1.015-.542 1.144 1.144 0 0 1-.166-.873 1.16 1.16 0 0 1 .52-.742l20.512-13.129v-23.134c0-5.756-3.107-11.252-8.109-14.343l-1.09-.673-.388 1.222c-1.157 3.645-4.305 6.191-7.659 6.191h-.329c-3.39 0-6.505-2.33-7.745-5.798l-.436-1.22-1.07.731a17.256 17.256 0 0 0-2.742 2.335 1.205 1.205 0 0 1-.883.374c-.309 0-.604-.115-.829-.323a1.16 1.16 0 0 1-.374-.817 1.16 1.16 0 0 1 .322-.836 19.727 19.727 0 0 1 5.375-3.988l1.798-.907-1.809-.883c-4.75-2.32-8.42-6.5-10.065-11.464l-.16-.485-.488-.155a7.075 7.075 0 0 1-1.135-.467 1.174 1.174 0 0 1-.636-.917 21.258 21.258 0 0 1 2.529-12.5c.266-.455 2.47-4.146 5.79-6.703l.028-.023-.007.007c3.842-2.931 8.447-4.481 13.317-4.481 3.293 0 6.458.707 9.408 2.1l.096.043c3.036 1.33 5.311 3.436 6.685 4.968l.09.099a21.289 21.289 0 0 1 5.141 10.382c.05.27 0 .553-.14.793a7.176 7.176 0 0 1-1.402 1.707l-.306.274-.025.41c-.418 6.973-4.644 13.26-11.03 16.405l-1.809.89 1.802.902c6.597 3.296 10.695 9.868 10.695 17.15v23.768c0 .398-.204.765-.543.983l-21.059 13.477a1.224 1.224 0 0 1-.659.193zM91.42 110.542a13.537 13.537 0 0 0-10.33 4.761l-1.01 1.186 1.498.424c3.085.872 6.397 1.314 9.843 1.314 3.445 0 6.756-.442 9.841-1.314l1.5-.424-1.01-1.186a13.532 13.532 0 0 0-10.332-4.76zm-12.746 8.95a13.138 13.138 0 0 0-.745 4.368c0 7.346 6.051 13.322 13.491 13.322 7.44 0 13.491-5.976 13.491-13.322 0-1.492-.25-2.962-.744-4.368l-.32-.914-.925.293c-3.528 1.116-7.504 1.707-11.5 1.707-4 0-7.977-.59-11.503-1.707l-.924-.293-.32.914zm7.686 20.675c.326 2.607 2.82 4.358 4.945 4.358h.268c2.007 0 4.395-1.649 4.751-4.314l.193-1.44-1.414.335a16.071 16.071 0 0 1-3.683.424c-1.295 0-2.584-.154-3.83-.458l-1.409-.342.18 1.438zm-3.307 1.844c-4.3 2.793-6.869 7.488-6.869 12.56v7.29l15.24 9.568 15.268-9.512-.036-7.34c-.024-5.146-2.644-9.874-7.008-12.648l-.992-.63-.463 1.08c-1.152 2.69-3.812 4.496-6.62 4.496h-.268c-2.84 0-5.634-1.822-6.793-4.43l-.477-1.07-.982.636zm8.367 31.99a1.21 1.21 0 0 1-.65-.187L74.325 163.49a1.167 1.167 0 0 1-.552-.989v-7.93c0-6.523 3.661-12.44 9.553-15.443l1.637-.834-1.589-.922c-4.846-2.812-7.856-7.99-7.856-13.512 0-2.496.613-4.98 1.771-7.18a15.968 15.968 0 0 1 14.13-8.487c5.841 0 11.202 3.153 13.993 8.23a15.573 15.573 0 0 1 1.908 7.437c0 5.522-3.01 10.7-7.858 13.514l-1.587.921 1.634.834c5.862 2.995 9.524 8.91 9.556 15.435l.04 7.986a1.16 1.16 0 0 1-.556.994l-16.482 10.272c-.192.12-.417.184-.648.184z" fill="#333"/><g fill="#333" class="title"><path class="letter" d="M43.37 25.472c-.193-.481-.539-.604-.989-.424L41 25.6l-1.106-2.763 3.247-1.3c1.445-.577 2.298-.211 2.877 1.235L52.88 39.93c.181.45.541.604.99.424l6.266-2.506c.45-.18.603-.54.423-.99l-.578-1.446 2.924-1.17 1.145 2.86c.578 1.446.211 2.3-1.235 2.88l-9.703 3.88c-1.445.579-2.3.214-2.879-1.233L43.37 25.472zM66.366 16.903l-2.22.366-.485-2.935 14.17-2.34c1.536-.256 2.291.286 2.547 1.822l.502 3.04-3.108.512-.254-1.536c-.085-.512-.398-.706-.876-.627L69.78 16.34l1.246 7.545 8.434-1.393.485 2.936-8.433 1.394 1.156 7c.08.478.397.705.876.627l7.033-1.163c.477-.079.705-.397.627-.874l-.254-1.538 3.141-.518.502 3.038c.253 1.537-.288 2.292-1.825 2.547l-10.72 1.772c-1.536.253-2.292-.289-2.546-1.826l-3.136-18.983zM103.53 26.454l-2.159-7.6c-.362-1.307-.737-3.482-.737-3.482l-.069-.005s-.627 2.108-1.162 3.355l-3.156 7.242 7.283.49zm-15.172 5.95l.483.031c.622.042.941-.075 1.19-.68l9.018-20.13 3.624.243 6.24 21.155c.165.635.502.796 1.088.836l.517.035-.199 2.968-1.934-.129c-1.726-.117-2.25-.568-2.695-2.193l-1.492-5.128-8.976-.604-2.165 4.882c-.695 1.548-1.274 1.926-3 1.81l-1.898-.128.2-2.969zM121.128 37.306l2.984 1.105c5.093 1.888 9.563.078 11.657-5.566 2.08-5.611-.176-9.88-5.236-11.754l-3.697-1.371-6.157 16.607c-.168.455-.004.81.449.979zm2.465-18.788l-2.11-.782 1.036-2.79 9.275 3.44c6.975 2.584 10.028 8.477 7.348 15.709-2.694 7.266-8.864 9.775-15.836 7.19l-5.092-1.888c-1.461-.541-1.848-1.386-1.307-2.846l6.686-18.033z"/></g></g></g></symbol><symbol id="focal-area--learn--sm" viewBox="0 0 180 180"><g fill="#8DC8E8" fill-rule="evenodd"><path d="M42.706 46.597c-.199-.349-.479-.405-.803-.219l-1 .573-1.145-2 2.348-1.345c1.047-.599 1.741-.41 2.34.637l7.11 12.416c.187.325.479.405.805.218l4.534-2.596c.324-.186.404-.479.217-.804l-.599-1.047 2.117-1.21 1.183 2.068c.6 1.046.411 1.742-.635 2.34l-7.021 4.021c-1.046.6-1.741.41-2.34-.636l-7.11-12.416zm16.71-9.045l-1.661.519-.689-2.198 10.612-3.321c1.151-.36 1.79-.025 2.15 1.125l.712 2.276-2.328.728-.36-1.15c-.12-.384-.38-.5-.739-.387l-5.14 1.608 1.77 5.65 6.315-1.975.688 2.199-6.316 1.976 1.64 5.243c.113.358.38.499.739.386l5.267-1.648c.358-.112.5-.381.387-.738l-.36-1.151 2.353-.736.712 2.276c.36 1.15.025 1.789-1.126 2.149l-8.029 2.512c-1.15.36-1.788.026-2.149-1.125l-4.447-14.218zm29.524 3.322l-2.473-5.595c-.42-.964-.94-2.59-.94-2.59l-.053.004s-.255 1.683-.53 2.697l-1.641 5.892 5.637-.407zm-10.993 6.194l.375-.026c.48-.035.714-.16.838-.651l4.748-16.404 2.805-.204 7.062 15.548c.195.47.469.557.924.524l.4-.028.168 2.297-1.497.108c-1.336.098-1.787-.191-2.303-1.39L89.77 43.07l-6.946.503-1.135 3.977c-.365 1.26-.77 1.612-2.105 1.71l-1.47.105-.167-2.297zm29.983-6.522c1.996.4 3.437-.647 3.854-2.722.418-2.074-.52-3.52-2.464-3.911l-3.466-.698-1.337 6.644 3.413.687zm-4.702-7.86l-1.706-.343.454-2.258 8.088 1.628c3.255.655 5.127 3.163 4.446 6.55-.624 3.099-2.952 4.215-4.323 4.24l-.01.052s.424.33.617.999l1.34 4.887c.15.604.56.74 1.19.868l.342.069-.455 2.257-1.286-.258c-1.445-.291-1.932-.581-2.294-1.91l-1.516-5.497c-.298-.961-.613-1.161-1.637-1.367l-2.416-.487-1.485 7.379-2.626-.528 3.277-16.28zm13.773 17.682l1.025.525c.335.17.623.078.794-.256l7.304-14.257 2.168 1.11 2.028 14.493c.156 1.224.234 3.01.234 3.01l.047.024s.518-1.42 1.006-2.375l4.678-9.13c.55-1.073 1.234-1.294 2.332-.732L141 44l-1.05 2.05-1.025-.524c-.335-.171-.61-.102-.794.256l-7.303 14.257-2.145-1.1-2.05-14.503c-.156-1.224-.212-2.997-.212-2.997l-.047-.025s-.553 1.433-1.03 2.362l-4.676 9.13c-.55 1.074-1.236 1.295-2.309.746l-2.407-1.234 1.05-2.05zM62.598 142.73h54.974V70.723H62.598v72.007zm3-3.001h48.974V73.722H65.598v66.007z"/><path d="M72.665 119.501h21.68v-2.323h-21.68v2.323zm0-7.742h34.842v-2.324H72.665v2.324zm0-7.741h34.842v-2.324H72.665v2.324zm0-7.745h34.842V93.95H72.665v2.323zM117.182 104.305l7.687 4.916-24.458 36.522-7.687-4.916z"/><path d="M121.067 98.947l2.624-4.037a1.204 1.204 0 0 1 1.647-.36l4.11 2.583c.554.348.716 1.077.362 1.622l-2.624 4.037-6.119-3.845zm-21.32 46.077l-6.12-3.845 23.52-36.2 6.12 3.847-23.52 36.198zm-6.97 4.093l.28-5.464 4.645 2.919-4.926 2.545zm26.983-48.161l6.12 3.846-1.307 2.012-6.119-3.846 1.306-2.012zm10.995-5.835l-4.109-2.582c-1.68-1.055-3.92-.568-4.996 1.087l-2.623 4.038-3.919 6.034-24.348 37.47-.494 9.605-1.133 1.743a1.179 1.179 0 0 0 .367 1.646 1.22 1.22 0 0 0 1.672-.365l1.133-1.744 8.653-4.474 24.348-37.471 3.92-6.034 2.623-4.037a3.528 3.528 0 0 0-1.094-4.916z"/></g></symbol><symbol id="focal-area--learn--tiny" viewBox="0 0 30 30"><path fill="#008BD3" fill-rule="evenodd" d="M18.562 5.792l1.026-1.619a.464.464 0 0 1 .644-.144l1.607 1.034c.217.141.28.432.14.65l-1.024 1.62-2.393-1.54zm-8.337 18.47l-2.393-1.544L17.029 8.21l2.393 1.541-9.197 14.51zm-2.726 1.64l.11-2.194 1.816 1.172-1.926 1.021zM18.05 6.597l2.393 1.54-.511.806-2.393-1.54.51-.806zm4.3-2.339l-1.607-1.036a1.408 1.408 0 0 0-1.953.438l-1.026 1.615-1.534 2.42-9.52 15.02-.193 3.847-.443.7a.48.48 0 0 0 .143.66c.22.14.513.076.655-.147l.442-.698 3.384-1.795 9.52-15.018 1.533-2.416 1.026-1.62a1.434 1.434 0 0 0-.427-1.97z"/></symbol><symbol id="focal-area--learn" viewBox="0 0 180 180"><g fill="none" fill-rule="evenodd" class="wrapper"><g class="state--default"><path fill="#1E8ECC" d="M54.5 157.5h71v-93h-71v93zm3-3h65v-87h-65v87z"/><path fill="#1E8ECC" d="M67.5 127.5h28v-3h-28v3zm0-10h45v-3.002h-45v3.002zm0-9.998h45V104.5h-45v3.002zm0-10.002h45v-3h-45v3z"/><path fill="#FFF" d="M124.996 107.873l9.928 6.35-31.589 47.169-9.928-6.349z"/><path fill="#1E8ECC" d="M130.014 100.953l3.388-5.213a1.56 1.56 0 0 1 2.13-.467l5.306 3.337c.716.449.925 1.39.467 2.095l-3.388 5.213-7.903-4.965zm-27.537 59.51l-7.903-4.966 30.377-46.753 7.903 4.969-30.377 46.75zm-9 5.287l.362-7.058 5.998 3.77-6.36 3.288zm34.85-62.202l7.903 4.967-1.688 2.599-7.903-4.968 1.688-2.598zm14.2-7.536l-5.307-3.335c-2.169-1.363-5.063-.733-6.452 1.404l-3.388 5.215-5.063 7.794-31.446 48.395-.638 12.402-1.463 2.252a1.524 1.524 0 0 0 .473 2.127 1.58 1.58 0 0 0 2.161-.472l1.464-2.253 11.175-5.778 31.446-48.395 5.063-7.792 3.388-5.215a4.558 4.558 0 0 0-1.413-6.35z"/></g><g class="state--hover"><g fill="#333" class="title"><path d="M28.809 33.341c-.258-.45-.618-.523-1.038-.283l-1.292.74-1.48-2.583 3.035-1.737c1.35-.773 2.248-.53 3.022.822l9.182 16.036c.24.42.618.523 1.039.282l5.855-3.353c.42-.24.524-.618.282-1.038l-.773-1.352 2.732-1.564 1.53 2.672c.775 1.351.53 2.25-.821 3.022l-9.068 5.193c-1.351.774-2.25.53-3.022-.82L28.809 33.34zM50.39 21.659l-2.146.67-.89-2.838 13.707-4.29c1.486-.464 2.31-.032 2.775 1.454l.92 2.939-3.006.94-.464-1.486c-.156-.495-.493-.644-.955-.5l-6.638 2.078 2.284 7.299 8.157-2.552.889 2.84-8.158 2.552 2.118 6.77c.145.463.492.645.954.5l6.804-2.128c.46-.145.644-.492.499-.954l-.465-1.487 3.038-.95.92 2.939c.466 1.486.034 2.31-1.452 2.775l-10.37 3.245c-1.487.465-2.311.033-2.776-1.453L50.39 21.659zM88.52 25.95l-3.193-7.226c-.542-1.244-1.215-3.346-1.215-3.346l-.068.005s-.33 2.174-.685 3.484l-2.118 7.61 7.28-.526zm-14.196 8l.482-.034c.622-.045.923-.205 1.084-.841l6.131-21.187 3.624-.263 9.12 20.082c.252.606.607.72 1.194.678l.517-.038.216 2.967-1.933.14c-1.726.125-2.308-.25-2.975-1.796l-2.192-4.872-8.97.65-1.467 5.137c-.471 1.629-.993 2.083-2.718 2.209l-1.898.137-.215-2.968zM113.047 25.526c2.578.518 4.438-.836 4.978-3.515.54-2.68-.673-4.547-3.183-5.051l-4.477-.902-1.726 8.58 4.408.888zm-6.072-10.15l-2.204-.444.587-2.917 10.445 2.103c4.204.846 6.622 4.085 5.742 8.46-.806 4.002-3.812 5.443-5.583 5.475l-.015.068s.55.428.799 1.29l1.73 6.31c.195.782.724.958 1.538 1.122l.44.089-.586 2.916-1.662-.334c-1.865-.376-2.495-.75-2.962-2.467l-1.958-7.098c-.385-1.242-.792-1.5-2.114-1.767l-3.12-.628-1.918 9.53-3.392-.682 4.233-21.026zM124.763 38.21l1.324.679c.432.22.804.1 1.025-.33l9.432-18.414 2.802 1.435 2.618 18.717c.2 1.58.303 3.887.303 3.887l.06.03s.669-1.833 1.3-3.065l6.04-11.793c.71-1.386 1.596-1.671 3.013-.946l3.078 1.578-1.355 2.647-1.326-.677c-.43-.222-.787-.132-1.023.33L142.62 50.7l-2.771-1.42-2.65-18.732c-.2-1.58-.271-3.87-.271-3.87l-.062-.032s-.713 1.85-1.33 3.05l-6.04 11.794c-.71 1.386-1.594 1.67-2.98.96l-3.11-1.592 1.356-2.648z" class="letter"/></g><path d="M54.5 157.5h71v-93h-71v93zm3-3h65v-87h-65v87z" fill="#333"/><path d="M67.5 127.5h28v-3h-28v3zm0-10h45v-3.002h-45v3.002zm0-9.998h45V104.5h-45v3.002zm0-10.002h45v-3h-45v3z" fill="#919191"/><path fill="#FF9E1A" d="M124.996 107.873l9.928 6.35-31.589 47.169-9.928-6.349z"/><path d="M130.014 100.953l3.388-5.213a1.56 1.56 0 0 1 2.13-.467l5.306 3.337c.716.449.925 1.39.467 2.095l-3.388 5.213-7.903-4.965zm-27.537 59.51l-7.903-4.966 30.377-46.753 7.903 4.969-30.377 46.75zm-9 5.287l.362-7.058 5.998 3.77-6.36 3.288zm34.85-62.202l7.903 4.967-1.688 2.599-7.903-4.968 1.688-2.598zm14.2-7.536l-5.307-3.335c-2.169-1.363-5.063-.733-6.452 1.404l-3.388 5.215-5.063 7.794-31.446 48.395-.638 12.402-1.463 2.252a1.524 1.524 0 0 0 .473 2.127 1.58 1.58 0 0 0 2.161-.472l1.464-2.253 11.175-5.778 31.446-48.395 5.063-7.792 3.388-5.215a4.558 4.558 0 0 0-1.413-6.35z" fill="#333"/></g></g></symbol><symbol id="home" viewBox="0 0 30 30"><path fill="#004B87" d="M15 5.417l-4.382 4.4c-.63.632-1.709.186-1.709-.706V7.556H7.364v5.11a1 1 0 0 1-.292.706l-3.666 3.684h2.685a1 1 0 0 1 1 1V26h4.364v-4.111a1 1 0 0 1 1-1h5.09a1 1 0 0 1 1 1V26h4.364v-7.944a1 1 0 0 1 1-1h2.684L15 5.417zM10.91 6.69l3.381-3.396a1 1 0 0 1 1.418 0l14 14.056c.628.63.181 1.706-.709 1.706h-4.09V27a1 1 0 0 1-1 1h-6.365a1 1 0 0 1-1-1v-4.111h-3.09V27a1 1 0 0 1-1 1H6.09a1 1 0 0 1-1-1v-7.944H1c-.89 0-1.336-1.075-.709-1.706l5.073-5.096V6.556a1 1 0 0 1 1-1h3.545a1 1 0 0 1 1 1v.134z"/></symbol><symbol id="link" viewBox="0 0 18 18"><path fill="#666" fill-rule="evenodd" d="M15.718 8.404L13.46 10.66a5.558 5.558 0 0 0-.328-2.475l1.18-1.202a2.337 2.337 0 0 0 0-3.295 2.337 2.337 0 0 0-3.296 0L8.52 6.163a2.366 2.366 0 0 0 0 3.318.95.95 0 0 1 0 1.406.99.99 0 0 1-1.406 0c-1.678-1.703-1.678-4.443 0-6.13l2.483-2.475c1.702-1.71 4.443-1.71 6.122 0 1.71 1.68 1.71 4.42 0 6.122zm-4.826 4.833l-2.498 2.498c-1.687 1.687-4.427 1.687-6.13 0-1.686-1.702-1.686-4.442 0-6.129l2.28-2.272a5.66 5.66 0 0 0 .329 2.498l-1.18 1.18a2.337 2.337 0 0 0 0 3.294 2.337 2.337 0 0 0 3.296 0l2.475-2.475c.929-.905.929-2.389 0-3.295a1.018 1.018 0 0 1 0-1.428c.39-.39 1.038-.39 1.428 0 1.68 1.702 1.68 4.442 0 6.129z"/></symbol><symbol id="location" viewBox="0 0 30 30"><path fill="#FF9E1B" fill-rule="evenodd" d="M15.004 14.004a2.99 2.99 0 0 1-3-3c0-1.676 1.336-3 3-3s3 1.324 3 3c0 1.664-1.336 3-3 3m0-11.004A8.007 8.007 0 0 0 7 11.004c0 3.448 1.034 5.076 2.714 8.134 1.682 3.06 5.29 7.862 5.29 7.862s3.608-4.802 5.29-7.862c1.68-3.058 2.714-4.686 2.714-8.134A8.007 8.007 0 0 0 15.004 3"/></symbol><symbol id="logo-icon" viewBox="0 0 180 180"><path fill="#0082BF" fill-rule="evenodd" d="M65.158 25.082C65.158 11.229 76.388 0 90.238 0c13.854 0 25.083 11.228 25.083 25.08 0 13.853-11.23 25.083-25.082 25.083s-25.081-11.23-25.081-25.082zm90.175 29.323a64.767 64.767 0 0 0-9.088-33.17c20.267 16.36 33.241 41.394 33.241 69.469 0 49.29-39.957 89.248-89.247 89.248S.992 139.994.992 90.704c0-28.075 12.975-53.108 33.242-69.468a64.767 64.767 0 0 0-9.088 33.169c0 35.95 29.143 65.093 65.093 65.093s65.094-29.144 65.094-65.093zm-25.012-33.17a48.971 48.971 0 0 1 9.13 28.536c0 27.179-22.032 49.212-49.211 49.212-27.18 0-49.213-22.033-49.213-49.212a48.972 48.972 0 0 1 9.13-28.535 41.023 41.023 0 0 0-.795 8.013c0 22.576 18.3 40.877 40.878 40.877 22.576 0 40.877-18.301 40.877-40.877 0-2.744-.28-5.421-.796-8.013z"/></symbol><symbol id="negative" viewBox="0 0 54 54"><g fill="none" fill-rule="evenodd"><circle cx="27" cy="27" r="27" fill="#FFF"/><circle cx="27" cy="27" r="22" fill="#C83737"/><path fill="#FFF" fill-rule="nonzero" d="M30 30V15a3 3 0 0 0-6 0v15a3 3 0 0 0 6 0z"/><circle cx="27" cy="39" r="3" fill="#FFF"/></g></symbol><symbol id="news" viewBox="0 0 70 70"><g fill="none" fill-rule="evenodd"><path fill="#666" d="M20.836 18.337h16.027a1.193 1.193 0 1 0 0-2.388H20.836c-.66 0-1.193.534-1.193 1.194a1.187 1.187 0 0 0 1.193 1.194zm0 7.023h15.707c.66 0 1.193-.533 1.193-1.193s-.533-1.193-1.193-1.193H20.836c-.66 0-1.193.533-1.193 1.193a1.186 1.186 0 0 0 1.193 1.193zm33.777 8.752h-5.307c-.66 0-1.194.534-1.194 1.194v5.307H16.387V9.387h38.226v24.725zm-4.114 4.808v-2.421h2.421l-2.421 2.42zM55.807 7H15.193C14.533 7 14 7.533 14 8.193v33.614c0 .66.533 1.193 1.193 1.193h34.113c.313 0 .618-.127.846-.347l6.501-6.501c.22-.22.347-.525.347-.846V8.193C57 7.533 56.467 7 55.807 7zM20.836 33.36h23.707c.66 0 1.193-.533 1.193-1.193s-.533-1.193-1.193-1.193H20.836c-.66 0-1.193.533-1.193 1.193a1.186 1.186 0 0 0 1.193 1.193z"/><path fill="#0085CA" d="M48 20.117h-3a2 2 0 0 0-2 2V25a2 2 0 0 0 2 2h3a2 2 0 0 0 2-2v-2.883a2 2 0 0 0-2-2m-1.5-.765c1.504 0 2.723-1.198 2.723-2.675 0-1.479-1.219-2.677-2.723-2.677-1.504 0-2.723 1.198-2.723 2.677 0 1.477 1.219 2.675 2.723 2.675"/><text fill="#666" font-family="Museo-700, Museo" font-size="14" font-weight="500"><tspan x="16.59" y="66">News</tspan></text></g></symbol><symbol id="play" viewBox="0 0 50 50"><path fill="#FFF" fill-rule="evenodd" d="M20 15l15 10-15 10z"/></symbol><symbol id="positive" viewBox="0 0 54 54"><g fill="none" fill-rule="evenodd"><circle cx="27" cy="27" r="27" fill="#FFF"/><circle cx="27" cy="27" r="22" fill="#39B864"/><path fill="#FFF" fill-rule="nonzero" d="M20.121 29.879a3 3 0 1 0-4.242 4.242l7 7a3 3 0 0 0 4.597-.427l13-19a3 3 0 1 0-4.952-3.388L24.565 34.323l-4.444-4.444z"/></g></symbol><symbol id="press" viewBox="0 0 70 70"><g fill="none" fill-rule="evenodd"><path fill="#666" d="M46.385 37.665c-1.913-1.915-6.423-5.634-14.507-8.134a24.35 24.35 0 0 0-2.309-.577c-.419-.083-.815-.565-.815-.991V17.409c0-.428.396-.909.814-.991.049-.009 1.21-.236 2.309-.577 8.083-2.493 12.595-6.212 14.508-8.129v29.953zM15.97 29.874V15.499h10.329v14.375H15.97zM26.4 45.268c.026.11.015.189-.007.215-.023.031-.096.06-.21.06h-3.298c-.45 0-.975-.414-1.08-.851l-2.978-12.361h4.456L26.4 45.268zM12.985 26.357c-.302 0-.483-.127-.53-.186v-6.726c.047-.058.228-.184.53-.184.302 0 .483.126.53.184v6.726c-.047.059-.228.186-.53.186zM47.196 4c-.608 0-1.17.337-1.667 1.003-.041.051-4.142 5.334-14.375 8.491-.972.301-2.046.511-2.056.511-.243.05-.477.125-.701.225a2.453 2.453 0 0 0-2.098-1.19H15.97a2.46 2.46 0 0 0-2.455 2.459v1.349a3.297 3.297 0 0 0-.53-.042c-1.646 0-2.985 1.169-2.985 2.607v6.793c0 1.436 1.339 2.605 2.985 2.605.181 0 .358-.012.53-.04v1.103a2.46 2.46 0 0 0 2.455 2.457h.332l3.117 12.937c.369 1.531 1.891 2.73 3.466 2.73h3.298c.862 0 1.641-.361 2.139-.992.497-.634.666-1.476.464-2.314l-2.978-12.361h.49c.891 0 1.67-.478 2.1-1.19.223.101.457.176.699.222.011.003 1.085.215 2.056.516 10.234 3.163 14.335 8.438 14.373 8.488.5.668 1.061 1.006 1.67 1.006.6 0 1.126-.342 1.406-.913.16-.328.237-.719.237-1.199V6.11C48.84 4.06 47.364 4 47.196 4z"/><path fill="#48B7E4" d="M53.212 15.9a1.195 1.195 0 0 0-1.664-.304 1.196 1.196 0 0 0-.306 1.665c.924 1.34 1.412 2.963 1.412 4.683 0 1.718-.511 3.396-1.438 4.725a1.196 1.196 0 0 0 .98 1.884c.377 0 .75-.18.982-.513 1.223-1.752 1.869-3.86 1.869-6.096 0-2.21-.635-4.3-1.835-6.044m3.933-3.38a1.199 1.199 0 0 0-1.664-.31 1.2 1.2 0 0 0-.307 1.666c1.591 2.31 2.433 5.096 2.433 8.056 0 2.948-.88 5.831-2.476 8.12a1.197 1.197 0 0 0 1.96 1.373C58.994 28.7 60 25.417 60 21.932c-.001-3.448-.989-6.702-2.855-9.413"/><text fill="#666" font-family="Museo-700, Museo" font-size="14" font-weight="500"><tspan x="17.43" y="66">Press</tspan></text></g></symbol><symbol id="quote-closing" viewBox="0 0 40 30"><path fill="#41B6E6" fill-rule="evenodd" d="M.41 24.755c6.238-1.468 9-4.3 9.613-9.86-1.432.63-2.557.84-3.478.84-1.84 0-3.375-.63-4.602-1.994C.613 12.378 0 10.7 0 8.706c0-2.517.818-4.51 2.455-6.189C4.193.84 6.34 0 8.898 0c2.659 0 4.807 1.049 6.443 3.147C17.18 5.14 18 7.867 18 11.119c0 4.93-1.636 9.126-4.807 12.587C10.125 27.063 5.83 29.161.41 30v-5.245zm22 0c6.238-1.468 9-4.3 9.613-9.86-1.432.63-2.557.84-3.478.84-1.84 0-3.375-.63-4.602-1.994C22.613 12.378 22 10.7 22 8.706c0-2.517.818-4.51 2.455-6.189C26.193.84 28.34 0 30.898 0c2.659 0 4.807 1.049 6.443 3.147C39.18 5.14 40 7.867 40 11.119c0 4.93-1.636 9.126-4.807 12.587C32.125 27.063 27.83 29.161 22.41 30v-5.245z"/></symbol><symbol id="quote-opening" viewBox="0 0 40 30"><path fill="#41B6E6" fill-rule="evenodd" d="M39.59 5.245c-6.238 1.468-9 4.3-9.613 9.86 1.432-.63 2.557-.84 3.478-.84 1.84 0 3.375.63 4.602 1.994C39.387 17.622 40 19.3 40 21.294c0 2.517-.818 4.51-2.455 6.189C35.807 29.16 33.66 30 31.102 30c-2.659 0-4.807-1.049-6.443-3.147C22.82 24.86 22 22.133 22 18.881c0-4.93 1.636-9.126 4.807-12.587C29.875 2.937 34.17.839 39.59 0v5.245zm-22 0c-6.238 1.468-9 4.3-9.613 9.86 1.432-.63 2.557-.84 3.478-.84 1.84 0 3.375.63 4.602 1.994C17.387 17.622 18 19.3 18 21.294c0 2.517-.818 4.51-2.455 6.189C13.807 29.16 11.66 30 9.102 30c-2.659 0-4.807-1.049-6.443-3.147C.82 24.86 0 22.133 0 18.881c0-4.93 1.636-9.126 4.807-12.587C7.875 2.937 12.17.839 17.59 0v5.245z"/></symbol><symbol id="result--locations" viewBox="0 0 90 90"><g fill="none" fill-rule="evenodd"><text fill="#666" font-family="Museo-700, Museo" font-size="14" font-weight="500"><tspan x="15.502" y="71">Location</tspan></text><g transform="translate(26)"><ellipse cx="19.5" cy="49.5" fill="#666" rx="15.5" ry="2.5"/><path fill="#666" d="M16.68 48.901c-.301-.366-7.392-9.04-10.828-14.772l-.645-1.074C2.185 28.037 0 24.411 0 17.673 0 7.928 8.524 0 19 0c10.477 0 19 7.928 19 17.673 0 6.738-2.184 10.364-5.207 15.382l-.644 1.073C28.712 39.861 21.62 48.535 21.32 48.901L19 51.734l-2.32-2.833z"/><path fill="#FFF" d="M27 18a8 8 0 1 1-16 0 8 8 0 0 1 16 0"/><path fill="#FF9E1B" d="M19 23c-3.328 0-6-2.449-6-5.5 0-3.072 2.672-5.5 6-5.5s6 2.428 6 5.5c0 3.051-2.672 5.5-6 5.5m0-20C10.168 3 3 9.574 3 17.674c0 6.321 2.067 9.306 5.425 14.912C11.788 38.196 19 47 19 47s7.212-8.804 10.575-14.414C32.933 26.98 35 23.995 35 17.674 35 9.574 27.832 3 19 3"/></g></g></symbol><symbol id="result--news-and-press" viewBox="0 0 90 90"><g fill="none" fill-rule="evenodd"><text fill="#666" font-family="Museo-700, Museo" font-size="14" font-weight="500"><tspan x=".753" y="71">News &amp; Press</tspan></text><path fill="#0085CA" d="M51 28.177h-2a2 2 0 0 0-2 2V32a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2v-1.823a2 2 0 0 0-2-2m-1-.647c1.289 0 2.333-1.014 2.333-2.265C52.333 24.014 51.289 23 50 23c-1.289 0-2.333 1.014-2.333 2.265 0 1.25 1.044 2.265 2.333 2.265M61 25h-5a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h5a2 2 0 0 0 2-2v-5a2 2 0 0 0-2-2m-2.5-1a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7"/><path fill="#666" d="M67 40h-7v7H23V3h44v37zm-5 6v-4h4l-4 4zM20 0v50h42l3-3 2-2 3-3V0H20z"/><path fill="#666" d="M29.5 13h31a1.5 1.5 0 0 0 0-3h-31a1.5 1.5 0 1 0 0 3m0 7h13a1.5 1.5 0 0 0 0-3h-13a1.5 1.5 0 1 0 0 3m0 7h13a1.5 1.5 0 0 0 0-3h-13a1.5 1.5 0 1 0 0 3m0 7h13a1.5 1.5 0 0 0 0-3h-13a1.5 1.5 0 1 0 0 3m0 7h13a1.5 1.5 0 0 0 0-3h-13a1.5 1.5 0 1 0 0 3"/></g></symbol><symbol id="result--pages" viewBox="0 0 90 90"><g fill="#666" fill-rule="evenodd"><text font-family="Museo-700, Museo" font-size="14" font-weight="500"><tspan x="25.386" y="71">Pages</tspan></text><path d="M23 0v51h44V8l-8-8H23zm3 3h31v7h7v38H26V3zm33 1l4 4h-4V4z"/><path d="M56.5 18h-23a1.5 1.5 0 0 1 0-3h23a1.5 1.5 0 0 1 0 3m0 7h-23a1.5 1.5 0 0 1 0-3h23a1.5 1.5 0 0 1 0 3m0 7h-23a1.5 1.5 0 0 1 0-3h23a1.5 1.5 0 0 1 0 3m-8 7h-15a1.5 1.5 0 0 1 0-3h15a1.5 1.5 0 0 1 0 3"/></g></symbol><symbol id="result--programs" viewBox="0 0 90 90"><g fill="none" fill-rule="evenodd"><path fill="#666" d="M23 0v5h-3v7h3v10h-3v7h3v10h-3v7h3v5h44V0H23zm3 48h38V3H26v45z"/><path fill="#C83737" d="M39.956 16.355l4.3 3.549a.39.39 0 0 0 .268.098c.1 0 .202-.034.268-.098l4.266-3.58c.907-.75 1.545-1.726 1.814-2.768.167-.715.134-1.171.101-1.268C50.805 10.399 49.226 9 47.345 9c-1.243 0-2.284.813-2.889 1.724C43.852 9.813 42.777 9 41.536 9c-1.882 0-3.293 1.367-3.495 3.32-.033.097-.1.553.102 1.268.268 1.041.906 2.018 1.813 2.766"/><path fill="#666" d="M31.5 28h27a1.5 1.5 0 1 0 0-3h-27a1.5 1.5 0 1 0 0 3m27 4h-27a1.5 1.5 0 1 0 0 3h27a1.5 1.5 0 1 0 0-3m0 7h-27a1.5 1.5 0 1 0 0 3h27a1.5 1.5 0 1 0 0-3"/><text fill="#666" font-family="Museo-700, Museo" font-size="14" font-weight="500"><tspan x="12.555" y="71">Programs</tspan></text></g></symbol><symbol id="result--stories" viewBox="0 0 90 90"><g fill="none" fill-rule="evenodd"><text fill="#666" font-family="Museo-700, Museo" font-size="14" font-weight="500"><tspan x="22.054" y="71">Stories</tspan></text><path fill="#FF9E1B" d="M45 26.708l2.369 4.801 5.299.769-3.834 3.738.905 5.276L45 38.801l-4.739 2.491.905-5.276-3.834-3.738 5.299-.769z"/><path fill="#666" d="M62 0L20 12v44h50V12h-8V0zm-3 3.857V12H30.5L59 3.857zM23 53h44V15H23v38z"/></g></symbol><symbol id="search" viewBox="0 0 28 28"><path fill="#004B87" fill-rule="evenodd" d="M19.767 17.645l7.794 7.794a1.5 1.5 0 0 1-2.122 2.122l-7.794-7.794A10.952 10.952 0 0 1 11 22C4.925 22 0 17.075 0 11S4.925 0 11 0s11 4.925 11 11c0 2.497-.832 4.8-2.233 6.645zM11 19a8 8 0 1 0 0-16 8 8 0 0 0 0 16z"/></symbol><symbol id="share" viewBox="0 0 24 24"><path fill="#004B87" fill-rule="evenodd" d="M24 8.714a.852.852 0 0 0-.254-.602l-6.858-6.858A.852.852 0 0 0 16.286 1a.863.863 0 0 0-.857.857v3.429h-3c-4.393 0-9.858.777-11.72 5.397-.562 1.42-.709 2.96-.709 4.46 0 1.875.938 4.326 1.7 6.04.148.308.296.737.496 1.018.094.134.188.228.375.228.268 0 .429-.215.429-.47 0-.213-.054-.455-.067-.669-.04-.549-.067-1.098-.067-1.647 0-6.389 3.79-7.5 9.563-7.5h3v3.428c0 .47.388.858.857.858a.852.852 0 0 0 .602-.255l6.858-6.857A.852.852 0 0 0 24 8.714z"/></symbol><symbol id="status" viewBox="0 0 40 40"><g fill="#FFF" fill-rule="evenodd"><path d="M20 40C8.954 40 0 31.046 0 20S8.954 0 20 0s20 8.954 20 20-8.954 20-20 20zm0-2c9.941 0 18-8.059 18-18S29.941 2 20 2 2 10.059 2 20s8.059 18 18 18z"/><circle cx="20" cy="11" r="3"/><rect width="6" height="15" x="17" y="17" rx="3"/></g></symbol><symbol id="twitter" viewBox="0 0 18 18"><path fill="#666" fill-rule="evenodd" d="M18 3.74a7.372 7.372 0 0 1-2.121.584 3.728 3.728 0 0 0 1.625-2.053 7.393 7.393 0 0 1-2.346.901A3.681 3.681 0 0 0 12.46 2 3.701 3.701 0 0 0 8.77 5.71c0 .29.033.574.096.845A10.471 10.471 0 0 1 1.253 2.68a3.7 3.7 0 0 0-.5 1.864c0 1.287.651 2.424 1.642 3.088a3.66 3.66 0 0 1-1.673-.463v.045a3.71 3.71 0 0 0 2.964 3.64 3.732 3.732 0 0 1-1.668.062 3.702 3.702 0 0 0 3.449 2.578A7.389 7.389 0 0 1 0 15.028a10.406 10.406 0 0 0 5.66 1.668c6.793 0 10.507-5.654 10.507-10.556 0-.161-.002-.32-.01-.48A7.538 7.538 0 0 0 18 3.74"/></symbol></svg>    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxTrustedUrl":{"\/search":true},"googleTranslatorDisclaimer":{"selector":".google-translator-switch","displayMode":"SIMPLE","disclaimerTitle":"","disclaimer":"","acceptText":"Accept","dontAcceptText":"Do Not Accept","element":"\u003Cspan id=\u0022google_translator_element\u0022\u003E\u003C\/span\u003E\n\u003Cscript src=\u0022\/\/translate.google.com\/translate_a\/element.js?cb=Drupal.behaviors.googleTranslatorElement.init\u0022\u003E\u003C\/script\u003E\n"},"googleTranslatorElement":{"id":"google_translator_element","languages":"sq,ar,bn,zh-CN,zh-TW,tl,fr,de,gu,ht,iw,hi,hu,it,ja,ko,fa,pl,pt,pa,ro,ru,es,ur,vi,yi,yo","displayMode":"SIMPLE"},"user":{"uid":0,"permissionsHash":"10264c39d488f3e17135ed256d0f924168a9264105d5fa281bc930118ceb2154"}}</script>
+<script src="/sites/default/files/js/js_gkvcpxBZCyaBw69dg5nRForaaeUD3VAxVH7Uah8hxvQ.js"></script>
+<script src="/themes/custom/cas/build/libraries/global/global.js?v=1.0.x"></script>
+<script src="/sites/default/files/js/js_Dij5xrVyvdniUVTcbXh9uyrN2g1WyDGM8vNW2dp2krU.js"></script>
+
+      <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"NRJS-16674665992858cb286","applicationID":"551213462","transactionName":"YAYHYEQEDEcCAEcKC1lMJFdCDA1aTD93ERFHAgloRRwRQAYObyALWRcXW1oJB0Y\/K0cXFAMbHXdZCxZGDA9fBhYNDAsABlE=","queueTime":0,"applicationTime":444,"atts":"TEEEFgweH0k=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
