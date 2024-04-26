@@ -121,7 +121,7 @@ export default function Footer() {
       </div>
       <div class="footer-bottom">
         <div class="container text-right">
-          LACU @ copyrights 2022 - by{" "}
+          LACU@ copyrights 2022 - by{" "}
           <a href="https://t.co/JWuKZ8htoy" target="_blank">
             yusufdev
           </a>

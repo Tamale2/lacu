@@ -31,10 +31,16 @@ export default function Home() {
 
             <div className="container">
               <div className="carousel-caption">
-                <h2 style={{color: ''}} className="carousel-title bounceInDown animated slow">
-                  LIGHT OF AFRICAN CHILD UGANDAlassName
+                <h2
+                  style={{ color: "" }}
+                  className="carousel-title bounceInDown animated slow"
+                >
+                  LIGHT OF AFRICAN CHILD UGANDA
                 </h2>
-                <h4 style={{color: 'green', textTransform: 'lowercase'}}className="carousel-subtitle bounceInUp animated slow ">
+                <h4
+                  style={{ color: "green", textTransform: "lowercase" }}
+                  className="carousel-subtitle bounceInUp animated slow "
+                >
                   "Hope & Education for the Unprivileged Children"
                 </h4>
                 <a
@@ -50,7 +56,7 @@ export default function Home() {
           </div>
 
           <div className="item ">
-            <img src="images/slider/home-slider-2.jpg" alt="" />
+            <img src="images/slider/slider.jpeg" alt="" />
 
             <div className="container">
               <div className="carousel-caption">
@@ -130,7 +136,7 @@ export default function Home() {
                 <img src="images/gallery/gallery7.jpg" alt="" />
 
                 <div className="reasons-titles">
-                  <h3 className="reasons-title">We fight together</h3>
+                  <h3 className="reasons-title">Making a difference</h3>
                   <h5 className="reason-subtitle">We are humans</h5>
                 </div>
 
@@ -143,7 +149,7 @@ export default function Home() {
                     and providing support to those in need,
                     <strong style={{ color: "green" }}>
                       {" "}
-                     LIGHT OF AFRICAN CHILD UGANDAlassName{" "}
+                      LIGHT OF AFRICAN CHILD UGANDAlassName{" "}
                     </strong>
                     Ugandacontributing to a more just and equitable society
                   </p>
@@ -161,12 +167,12 @@ export default function Home() {
               </div>
             </div>
 
-            <div style={{height: "20%"}} className="col-md-6">
+            <div style={{ height: "20%" }} className="col-md-6">
               <div className="reasons-col animate-onscroll fadeIn">
                 <img src="images/gallery/about.jpg" alt="" />
 
                 <div className="reasons-titles">
-                  <h3 className="reasons-title">WE care about others</h3>
+                  <h3 className="reasons-title">Every smile</h3>
                   <h5 className="reason-subtitle">We are humans</h5>
                 </div>
 
@@ -199,12 +205,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-
-      
-               
-               
-                  
-
 
       <div className="section-home our-causes animate-onscroll fadeIn">
         <div className="container">
