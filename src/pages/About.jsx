@@ -55,10 +55,7 @@ export default function About() {
                       other basic needs.
                     </p>
                   </div>
-                  <a href="#" className="btn btn-primary">
-                    {" "}
-                    {" "}
-                  </a>
+                  
                 </div>
               </div>
 
@@ -78,10 +75,7 @@ export default function About() {
                       children are accorded hope for a better life and future.
                     </p>
                   </div>
-                  <a href="#" className="btn btn-primary">
-                    {" "}
-                    {" "}
-                  </a>
+                 
                 </div>
               </div>
 
@@ -97,10 +91,7 @@ export default function About() {
                      <li> Professionalism.</li>
                       </ul>
                   </div>
-                  <a href="#" className="btn btn-primary">
-                    {" "}
-                    {" "}
-                  </a>
+                 
                 </div>
               </div>
 
@@ -116,10 +107,7 @@ export default function About() {
                       vel lectus ut eta esami vera dolor sit amet consect
                     </p>
                   </div>
-                  <a href="#" className="btn btn-primary">
-                    {" "}
-                    {" "}
-                  </a>
+                 
                 </div>
               </div>
             </div>
