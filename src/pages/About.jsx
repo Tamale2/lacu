@@ -27,7 +27,7 @@ export default function About() {
                 LIGHT OF AFRICAN CHILD – UGANDA is a registered non-profit organization dedicated to improving the lives of underprivileged children in Uganda. Through a holistic approach, we strive to provide essential resources such as education, healthcare, nutrition, and emotional support to ensure these children have the opportunity to thrive. Our programs are designed to empower children by fostering their talents, cultivating their potential, and breaking the cycle of poverty. With a focus on sustainability and community involvement, we work tirelessly to create a brighter future for every child we reach, illuminating pathways to success and hope across Uganda.
                 </p>
                 <div classclassName="readmore_bt">
-                  <a href="#">Read more</a>
+                  <a href="#"></a>
                 </div>
               </div>
               <div className="col-sm-4">
@@ -57,7 +57,7 @@ export default function About() {
                   </div>
                   <a href="#" className="btn btn-primary">
                     {" "}
-                    Read more{" "}
+                    {" "}
                   </a>
                 </div>
               </div>
@@ -80,7 +80,7 @@ export default function About() {
                   </div>
                   <a href="#" className="btn btn-primary">
                     {" "}
-                    Read more{" "}
+                    {" "}
                   </a>
                 </div>
               </div>
@@ -99,7 +99,7 @@ export default function About() {
                   </div>
                   <a href="#" className="btn btn-primary">
                     {" "}
-                    Read more{" "}
+                    {" "}
                   </a>
                 </div>
               </div>
@@ -118,7 +118,7 @@ export default function About() {
                   </div>
                   <a href="#" className="btn btn-primary">
                     {" "}
-                    Read more{" "}
+                    {" "}
                   </a>
                 </div>
               </div>
