@@ -34,7 +34,7 @@ export default function Header() {
                   <li>
                     {" "}
                     <i className="fa fa-phone"></i>{" "}
-                    <a href="tel:">+256702476429</a>{" "}
+                    <a href="tel:">+25670000000</a>{" "}
                   </li>
                   <li>
                     {" "}

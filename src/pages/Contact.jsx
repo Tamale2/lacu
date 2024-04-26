@@ -2,9 +2,7 @@ import React from "react";
 import Navigation from "../components/Navigation";
 
 export default function Contact() {
-
   return (
-   
     <>
       <Navigation />
       <div className="page-heading text-center">
@@ -27,7 +25,11 @@ export default function Contact() {
                 CONTACT FORM <span className="title-under"></span>
               </h2>
 
-              <form action="https://getform.io/f/jawxvwmb" method="POST" className="contact-form ajax-form">
+              <form
+                action="https://getform.io/f/jawxvwmb"
+                method="POST"
+                className="contact-form ajax-form"
+              >
                 <div className="row">
                   <div className="form-group col-md-6">
                     <input
@@ -57,10 +59,6 @@ export default function Contact() {
                     className="form-control"
                     placeholder="Message*"
                     required
-
-                  
-
-
                   ></textarea>
                 </div>
 
@@ -83,7 +81,8 @@ export default function Contact() {
             <div className="col-md-4 col-md-offset-1 col-contact">
               <h2 className="title-style-2">
                 {" "}
-                LIGHT OF AFRICAN CHILD UGANDAlassName CONTACTS <span className="title-under"></span>
+                LIGHT OF AFRICAN CHILD UGANDAlassName CONTACTS{" "}
+                <span className="title-under"></span>
               </h2>
               <p>
                 <b>LACU</b> ipsum dolor sit amet, consectetur adipiscing elit.
@@ -107,7 +106,7 @@ export default function Contact() {
                       {" "}
                       <i className="fa fa-phone"></i>
                     </span>{" "}
-                    +256702476429
+                    +25670000000
                   </li>
 
                   <li className="contact-item">
@@ -120,22 +119,21 @@ export default function Contact() {
                   </li>
 
                   <a href="#" class="btn">
-                      {" "}
-                      <i class="fa fa-facebook"></i>{" "}
-                    </a>
-                    <a href="#" class="btn">
-                      {" "}
-                      <i class="fa fa-google"></i>{" "}
-                    </a>
-                    <a href="#" class="btn">
-                      {" "}
-                      <i class="fa fa-twitter"></i>{" "}
-                    </a>
-                    <a href="#" class="btn">
-                      {" "}
-                      <i class="fa fa-linkedin"></i>{" "}
-                    </a>
-
+                    {" "}
+                    <i class="fa fa-facebook"></i>{" "}
+                  </a>
+                  <a href="#" class="btn">
+                    {" "}
+                    <i class="fa fa-google"></i>{" "}
+                  </a>
+                  <a href="#" class="btn">
+                    {" "}
+                    <i class="fa fa-twitter"></i>{" "}
+                  </a>
+                  <a href="#" class="btn">
+                    {" "}
+                    <i class="fa fa-linkedin"></i>{" "}
+                  </a>
                 </ul>
               </div>
             </div>
